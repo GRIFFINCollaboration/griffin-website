@@ -1,0 +1,108 @@
+/* general */
+
+body{
+    color: #FFFFFF;
+}
+
+div.wrap {
+    display: block;
+    overflow: auto;
+    position: relative;
+}
+
+div.wrap::after {
+  content: "";
+  background: linear-gradient( 0deg, rgba(0,0,0,1), rgba(0,0,0,1) 10%, rgba(0,0,0,0.5) ), url("../img/griffin.jpg");
+  background-size: cover;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+canvas#embelishment {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+@media (max-width: 768px) {
+    canvas#embelishment {
+        display: none;
+    }
+}
+
+div.innerWrap {
+    padding: 5%;
+}
+
+img.inline {
+    width: 100%;
+}
+
+div.row {
+    margin: 0 15% 0 15%;
+}
+
+/* navigation header */
+
+nav.navbar-custom {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+nav.navbar-custom  img.logo {
+    height: 100%;
+}
+
+nav.navbar-custom li a{
+    color: #FFFFFF !important;
+    border-radius: 1em;
+} 
+
+nav.navbar-custom li a:hover{
+    border-bottom: 1px solid #FFFFFF;
+} 
+
+nav.navbar-custom  li.active-custom a {
+    background-color: transparent !important;
+    border-radius: 1em;
+    border-bottom: 1px solid #00FF00;
+}
+
+/* landing page */
+div.jumbotron-custom {
+    background-color: transparent;
+    margin: 0 15% 0 15%;
+}
+
+p.splashText {
+    font-size: 150%;
+}
+
+div.row h1 {
+    margin-bottom: 1em;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+div.splashContent{
+    margin-bottom: 200px;
+}
+
+div.splashIcon {
+    text-align: center;
+}
+
+div.splashIcon span {
+    font-size: 1500%;
+}
+
+/* footer */
+div.footer {
+    color: #FFFFFF;
+    text-align: center;
+    vertical-align: middle;
+}

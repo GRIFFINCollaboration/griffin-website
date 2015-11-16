@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <title>GRIFFIN Collaboration</title>
+        <script src="scripts/jquery1-11-3.min.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="scripts/bootstrap3-3-5.min.js" type="text/javascript"></script>
+
+        <script src='scripts/griffin.js' type="text/javascript"></script>
+        <link rel="stylesheet" href="css/griffin.css">
+    </head>
+
+    <body>
+
+        <div id='wrap' class='wrap'>
+            <canvas id='embelishment'></canvas>
+
+            <div class='innerWrap'>
+
+                <!--navigation-->
+                <nav class="navbar navbar-default navbar-custom">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">
+                                <img class='logo' alt="GRIFFIN Collaboration" src="img/logo.gif">
+                            </a>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li class="active active-custom"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
+                                <li><a href="#">Physics</a></li>
+                                <li><a href="#">People</a></li>
+                                <li><a href="#">Hardware</a></li>
+                                <li><a href="#">DAQ</a></li>
+                                <li><a href="#">Logos</a></li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                    </div><!-- /.container-fluid -->
+                </nav>
+
+                <!--splash-->
+                <div class="jumbotron jumbotron-custom">
+                    <h1>GRIFFIN Collaboration</h1>
+                    <p>
+                        GRIFFIN - Gamma-Ray Infrastructure For Fundamental Investigations of Nuclei - is a state-of-the-art facility for decay spectroscopy with exotic beams located at TRIUMF, Canada. An array of 16 hyper-pure germanium clover detectors provide high detection efficiency for gamma rays and will couple to a fully digital data acquisition system.
+
+                        GRIFFIN dramatically increses gamma ray detection efficiency and data aquisition throughput over past experiments, and leverages a powerful suite of ancillary detectors developed for its predacesor, the 8pi.
+                    </p>
+                </div>
+
+                <!--efficiency-->
+                <div class='row'>
+                    <h1>17x efficiency</h1>
+                    <div class='col-md-6'>
+                        <img class='inline' src='img/GRIFFIN_Eff.png'></img>
+                    </div>
+
+                    <div class='col-md-6'>
+                        <p class='splashText'>Absolute efficiency of the 8pi and GRIFFIN Spectrometers at ISAC-I as a function of gamma-ray energy. GRIFFIN is 17 times more efficient in gamma-ray singles (almost 300 times more efficiency for gamma-gamma coincidences) at 1 MeV, and around 40 times more efficient by 10 MeV, than its predacesor.</p>
+                    </div>
+                </div>
+
+                <!--toolkit-->
+                <div class='row splashContent'>
+                    <h1>Physics on the Web</h1>
+                    <div class='col-md-6 splashIcon'>
+                        <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+                    </div>
+
+                    <div class='col-md-6'>
+                        <p class='splashText'>The <a href=''>GRIFFIN Toolkit</a> is a suite of web apps built for designing, understanding and running experiments at GRIFFIN, from anywhere on the web. Check out some of the tools we're using, or <a href=''>grab the code yourself</a>; all GRIFFIN web projects are MIT licensed and open source on GitHub.</p>
+                    </div>
+                </div>
+
+                <!--footer-->
+                <div class='footer'>
+                    <p>&copy; 2015 GRIFFIN Collaboration</p>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <script>
+            drawEmbelishment('embelishment')
+            window.onresize = drawEmbelishment.bind(null, 'embelishment');
+        </script>
+    </body>
+</html>
