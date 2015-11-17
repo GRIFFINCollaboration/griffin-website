@@ -54,10 +54,6 @@ nav.navbar-custom {
     border-color: transparent;
 }
 
-nav.navbar-custom  img.logo {
-    height: 100%;
-}
-
 nav.navbar-custom li a{
     color: #FFFFFF !important;
     border-radius: 1em;
@@ -81,18 +77,14 @@ nav.navbar-custom  li.active-custom a {
 div.jumbotron-custom {
     background-color: transparent;
     margin: 0 15% 0 15%;
+    padding: 5%;
 }
 
 div.jumbotron-custom h1 img {
     width: 1em;
 }
 
-p.splashText {
-    font-size: 150%;
-}
-
 div.row h1 {
-    margin-bottom: 1em;
     border-bottom: 1px solid #FFFFFF;
 }
 
@@ -111,7 +103,4 @@ div.splashIcon span {
 /* footer */
 div.footer {
     color: #FFFFFF;
-    text-align: center;
-    vertical-align: middle;
-    margin-top:200px;
 }

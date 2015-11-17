@@ -1,0 +1,29 @@
+<div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+            {{# whiteLogo}}
+                <img class='logo' alt="GRIFFIN Collaboration" src="img/logo.gif"></img>
+            {{/ whiteLogo}}
+            {{^ whiteLogo}}
+                <img class='logo' alt="GRIFFIN Collaboration" src="img/logo-black.png"></img>
+            {{/ whiteLogo}}
+        </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+            <li class="active active-custom"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Physics</a></li>
+            <li><a href="#">Collaboration</a></li>
+            <li><a href="#">Hardware</a></li>
+            <li><a href="#">DAQ</a></li>
+            <li><a href="#">Logos</a></li>
+        </ul>
+    </div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
