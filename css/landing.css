@@ -73,6 +73,23 @@ nav.navbar-custom  li.active-custom a {
     border-right: 2px solid #FFFFFF;
 }
 
+a.dropdown-toggle{
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+a.dropdown-toggle:hover{
+    border-color: #FFFFFF !important;
+}
+
+ul.dropdown-menu li a {
+    color: #000000 !important;
+}
+
+li.open a.dropdown-toggle {
+    border-color: #FFFFFF !important;
+}
+
 /* landing page */
 div.jumbotron-custom {
     background-color: transparent;
@@ -103,4 +120,5 @@ div.splashIcon span {
 /* footer */
 div.footer {
     color: #FFFFFF;
+    margin-top: 200px;
 }

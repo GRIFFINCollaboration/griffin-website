@@ -74,6 +74,8 @@
             //inject navigation bar
             promisePartial('nav').then(function(template){
                 document.getElementById('navigation').innerHTML = Mustache.to_html(template, {"whiteLogo": true});
+                document.getElementById('linkOverview').classList.add('active');
+                document.getElementById('linkOverview').classList.add('active-custom');
             })
 
             //inject footer
