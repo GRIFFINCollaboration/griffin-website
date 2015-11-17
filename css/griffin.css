@@ -73,8 +73,8 @@ nav.navbar-custom li a:hover{
 nav.navbar-custom  li.active-custom a {
     background-color: transparent !important;
     border-radius: 1em;
-    border-left: 1px solid #00FF00;
-    border-right: 1px solid #00FF00;
+    border-left: 2px solid #FFFFFF;
+    border-right: 2px solid #FFFFFF;
 }
 
 /* landing page */
