@@ -12,8 +12,9 @@ div.wrap {
 
 div.wrap::after {
   content: "";
-  background: linear-gradient( 0deg, rgba(0,0,0,1), rgba(0,0,0,1) 10%, rgba(0,0,0,0.5) ), url("../img/griffin.jpg");
+  background: linear-gradient( 0deg, rgba(0,0,0,1), rgba(0,0,0,1) 10%, rgba(0,0,0,0.6) ), url("../img/griffin.jpg");
   background-size: cover;
+  background-position: center;
   top: 0;
   left: 0;
   bottom: 0;
@@ -28,6 +29,9 @@ canvas#embelishment {
     left: 0;
 }
 
+.row h1{
+    margin-bottom: 1em;
+}
 
 @media (max-width: 768px) {
     canvas#embelishment {
@@ -37,6 +41,7 @@ canvas#embelishment {
 
 div.innerWrap {
     padding: 5%;
+    height: auto;
 }
 
 img.inline {
@@ -90,11 +95,11 @@ li.open a.dropdown-toggle {
     border-color: #FFFFFF !important;
 }
 
-/* landing page */
 div.jumbotron-custom {
     background-color: transparent;
     margin: 0 15% 0 15%;
     padding: 5%;
+    height:auto;
 }
 
 div.jumbotron-custom h1 img {

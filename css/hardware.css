@@ -1,0 +1,65 @@
+/*splash*/
+
+div.leadBubble {
+    background: linear-gradient( 0deg, rgba(255,255,255,0.7), rgba(255,255,255,0.7) ), url("../img/griffin.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+/*detectors*/
+
+div.row {
+    margin-bottom: 3em;
+}
+
+div.detectorStub{
+    width: 20em;
+    height: 20em;
+    border-radius: 10em;
+}
+
+h2.subheading {
+    border-bottom: none !important;
+}
+
+div#tape{
+    background: url("../img/movingTape.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+div#hpge{
+    background: url("../img/GRIFFIN_HPGe_Clover.png");
+    background-size: cover;
+    background-position: center;
+}
+
+div#sceptar{
+    background: url("../img/sceptar.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+div#labr{
+    background: url("../img/labr.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+div#paces{
+    background: url("../img/paces.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+div#descant{
+    background: url("../img/descant.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+div#vandle{
+    background: url("../img/vandle.jpg");
+    background-size: cover;
+    background-position: center;
+}
