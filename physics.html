@@ -1,0 +1,272 @@
+<html>
+    <head>
+        <title>GRIFFIN Collaboration - Hardware</title>
+        <script src="scripts/jquery1-11-3.min.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="scripts/bootstrap3-3-5.min.js" type="text/javascript"></script>
+        <script src="scripts/mustache.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+        <script src='scripts/griffin.js' type="text/javascript"></script>
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/physics.css">
+    </head>
+
+    <body>
+
+        <div id='wrap' class='wrap'>
+            <div class='innerWrap'>
+
+                <!--navigation - poulate with nav.mustache-->
+                <nav id='navigation' class="navbar navbar-default navbar-custom"></nav>
+
+                <!--splash-->
+                <div id='jumbo' class="jumbotron jumbotron-custom">
+                    <div id='titleBub' class='leadBubble'></div>
+                    <div id='titleText' class='leadText'>
+                        <h1>Physics</h1>
+                        <p class='splashText'>GRIFFIN is designed for decay spectroscopy, the study of the radiation emitted when radioactive nuclei decay. Our facility supports a broad spectrum of research in three major fields: in nuclear structure, GRIFFIN helps understand how the properties of nuclei change based on their composition; in nuclear astrophysics, it studies nuclei along the r-process path (thought to be the mechanism for how the heavy chemical elements are formed in the universe); and in fundamental symmetries, it performs precision studies of super-allowed fermi beta decays in a particular subset of nuclei that have the same number of protons and neutrons, as well as measurements for the Radon Electric Dipole Moment program at ISAC. </p>
+                    </div>
+                </div>
+
+                <div id='betaPlus' class='row'>
+                    <div class='col-md-4'>
+                        <!--img tbd-->
+                    </div>
+                    <div class='col-md-8'>
+                        <h2>&beta;<sup>+</sup> Decay</h2>
+                        <div class='equation'>
+                            <sub>x</sub>N<sub>y</sub> &#8594; <sub>x-1</sub>N<sup>*</sup><sub>y+1</sub> + &beta;<sup>+</sup> + &nu;<sub>e</sub> 
+                        </div>
+                        <p><b>Process:</b> A proton in a nucleus spontaneously turns into a neutron, a positron and an electron neutrino. The nucleus is often left in an excited state and loses energy by emitting gamma rays. &beta;<sup>+</sup> decay occurs in nuclei on the neutron-deficient side of the nuclear chart.</p> 
+                        <p><b>History:</b> This process was discovered to be different to beta- decay in 1934 by Ir&egrave;ne and Fr&eacute;d&eacute;ric Joliot-Curie. </p>
+                    </div>
+                </div>
+
+                <div id='betaMinus' class='row'>
+                    <div class='col-md-4'>
+                        <!--img tbd-->
+                    </div>
+                    <div class='col-md-8'>
+                        <h2>&beta;<sup>-</sup> Decay</h2>
+                        <div class='equation'>
+                            <sub>x</sub>N<sub>y</sub> &#8594; <sub>x+1</sub>N<sup>*</sup><sub>y-1</sub> + &beta;<sup>-</sup> + &nu;&#773;<sub>e</sub> 
+                        </div>
+                        <p><b>Process:</b> A neutron spontaneously turns into a proton, an electron and an anti-electron neutrino. The daughter nucleus is often formed in an excited state and loses energy by gamma-ray emission. &beta;<sup>-</sup> decay occurs in nuclei on the neutron-rich side of the nuclear chart, that is nuclei containing an excess of neutrons compared to protons.</p> 
+                        <p><b>History:</b> This process, along with alpha decay, was one of the first forms of radioactivity to be discovered by Henry Bequerel in 1896.</p>
+                    </div>
+                </div>
+
+                <div id='ec' class='row'>
+                    <div class='col-md-4'>
+                        <!--img tbd-->
+                    </div>
+                    <div class='col-md-8'>
+                        <h2>Electron Capture</h2>
+                        <div class='equation'>
+                            <sub>x</sub>N<sub>y</sub> + e<sup>-</sup> &#8594; <sub>x-1</sub>N<sup>*</sup><sub>y+1</sub> + &nu;<sub>e</sub> 
+                        </div>
+                        <p><b>Process:</b> A proton in a nucleus spontaneously and simultaneously captures an atomic electron and turns into a neutron and an electron neutrino. The daughter nucleus is often formed in an excited state and loses energy by gamma-ray emission. Electron capture competes with &beta;<sup>+</sup> decay on the neutron-deficient side of the nuclear chart, that is nuclei with an excess of protons to neutrons.</p>
+                        <p><b>History:</b> Electron capture was first theorised in 1934 by Gian-Carlo Wick, and observed in 1936-37 by Luiz Alvarez.</p>
+                    </div>
+                </div>
+
+                <div id='betaDelayedNeutron' class='row'>
+                    <div class='col-md-4'>
+                        <!--img tbd-->
+                    </div>
+                    <div class='col-md-8'>
+                        <h2>&beta;-Delayed Neutron Emission</h2>
+                        <div class='equation'>
+                            <sub>x</sub>N<sub>y</sub> &#8594; <sub>x+1</sub>N<sup>*</sup><sub>y-2</sub> + n + &beta;<sup>-</sup> + &nu;&#773;<sub>e</sub> 
+                        </div>
+                        <p><b>Process:</b> A neutron inside a nucleus spontaneously turns into a proton, an electron and an anti-electron neutrino, as per &beta;<sup>-</sup> decay, but in this case the daughter nucleus is formed in an excited state which is above the binding energy for a neutron within that nucleus so a neutron is immediately ejected. The final daughter nucleus is often formed in an excited state and loses energy by gamma-ray emission. &beta;-delayed neutron emission occurs in nuclei on the neutron-rich side of the nuclear chart, that is nuclei containing an excess of neutrons compared to protons.</p> 
+                        <p><b>History:</b> Beta-delayed neutrons were first observed by studying decays of heavy fission products by <a href='http://journals.aps.org/pr/abstract/10.1103/PhysRev.55.510.2'>Roberts, Myer and Wang</a> in 1939.</p>
+                    </div>
+                </div>
+
+                <div id='betaDelayedProton' class='row'>
+                    <div class='col-md-4'>
+                        <!--img tbd-->
+                    </div>
+                    <div class='col-md-8'>
+                        <h2>&beta;-Delayed Proton Emission</h2>
+                        <div class='equation'>
+                            <sub>x</sub>N<sub>y</sub> &#8594; <sub>x-2</sub>N<sup>*</sup><sub>y+1</sub> + p + &beta;<sup>+</sup> + &nu;<sub>e</sub> 
+                        </div>
+                        <p><b>Process:</b> A neutron inside a nucleus spontaneously turns into a neutron, a positron and an electron neutrino, as per &beta;<sup>+</sup> decay, but in this case the daughter nucleus is formed in an excited state which is above the binding energy for a proton within that nucleus so a proton is immediately ejected. The final daughter nucleus is often formed in an excited state and loses energy by gamma-ray emission. &beta;-delayed proton emission occurs in nuclei on the neutron-deficient side of the nuclear chart, that is nuclei containing an excess of protons compared to neutrons.</p> 
+                        <p><b>History:</b> Beta-delayed proton emission was first observed in 1963 by <a href='http://www.nrcresearchpress.com/doi/abs/10.1139/p63-201#.Vk30p6K4bBK'>Barton et al</a>.</p>
+
+                    </div>
+                </div>
+
+                <div id='doubleBetaPlus' class='row'>
+                    <div class='col-md-4'>
+                        <!--img tbd-->
+                    </div>
+                    <div class='col-md-8'>
+                        <h2>Double &beta;<sup>+</sup> Decay</h2>
+                        <div class='equation'>
+                            <sub>x</sub>N<sub>y</sub> &#8594; <sub>x-2</sub>N<sup>*</sup><sub>y+2</sub> + 2&beta;<sup>+</sup> + 2&nu;<sub>e</sub> 
+                        </div>
+                        <p><b>Process:</b> Two protons in a nucleus spontaneously and simultaneously turn into two neutrons, two positrons and two electron neutrinos. The nucleus is often left in an excited state and loses energy by emitting gamma rays. Double &beta;<sup>+</sup> decay is an extremely rare process and occurs in nuclei which appear to be stable to other decay modes. </p> 
+                    </div>
+                </div>
+
+                <div id='doubleBetaMinus' class='row'>
+                    <div class='col-md-4'>
+                        <!--img tbd-->
+                    </div>
+                    <div class='col-md-8'>
+                        <h2>Double &beta;<sup>-</sup> Decay</h2>
+                        <div class='equation'>
+                            <sub>x</sub>N<sub>y</sub> &#8594; <sub>x+2</sub>N<sup>*</sup><sub>y-2</sub> + 2&beta;<sup>-</sup> + 2&nu;&#773;<sub>e</sub> 
+                        </div>
+                        <p><b>Process:</b> Two neutrons in a nucleus spontaneously and simultaneously turn into two protons, two electrons and two anti-electron neutrinos. The daughter nucleus is often formed in an excited state and loses energy by gamma-ray emission. Double &beta;<sup>-</sup> decay is an extremely rare process and occurs in nuclei which appear to be stable to other decay modes. </p> 
+                        <p><b>History:</b> Double &beta; decay (of either charge state) was first observed in 1987 by <a href='http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.59.2020'>Elliot, Hahn and Moe</a>.</p>
+                    </div>
+                </div>
+
+                <div id='doubleEC' class='row'>
+                    <div class='col-md-4'>
+                        <!--img tbd-->
+                    </div>
+                    <div class='col-md-8'>
+                        <h2>Double Electron Capture</h2>
+                        <div class='equation'>
+                            <sub>x</sub>N<sub>y</sub> + 2e<sup>-</sup> &#8594; <sub>x-2</sub>N<sup>*</sup><sub>y+2</sub> + 2&nu;<sub>e</sub> 
+                        </div>
+                        <p><b>Process:</b> Two protons in a nucleus spontaneously and simultaneously capture two atomic electrons and turn into two neutrons and two electron neutrinos. The daughter nucleus is often formed in an excited state and loses energy by gamma-ray emission. Double electron capture is an extremely rare process and occurs in nuclei which appear to be stable to other decay modes.</p> 
+                    </div>
+                </div>
+
+                <div id='alpha' class='row'>
+                    <div class='col-md-4'>
+                        <!--img tbd-->
+                    </div>
+                    <div class='col-md-8'>
+                        <h2>Alpha Decay</h2>
+                        <div class='equation'>
+                            <sub>x</sub>N<sub>y</sub> &#8594; <sub>x-2</sub>N<sup>*</sup><sub>y-2</sub> + &alpha; 
+                        </div>
+                        <p><b>Process:</b> A nucleus spontaneously emits a <sup>4</sup>He nucleus - a tightly bound system of two protons and two neutrons. The daughter nucleus is often formed in an excited state and loses energy by gamma-ray emission or internal conversion process. Alpha decay usually occurs in heavy nuclei.</p> 
+                        <p><b>History:</b> This process, along with beta decay, was one of the first forms of radioactivity to be discovered by Henry Bequerel in 1896.</p>
+                    </div>
+                </div>
+
+                <div id='protonEmission' class='row'>
+                    <div class='col-md-4'>
+                        <!--img tbd-->
+                    </div>
+                    <div class='col-md-8'>
+                        <h2>Proton Emission</h2>
+                        <div class='equation'>
+                            <sub>x</sub>N<sub>y</sub> &#8594; <sub>x-1</sub>N<sup>*</sup><sub>y</sub> + p 
+                        </div>
+                        <p><b>Process:</b> A nucleus spontaneously emit a proton. The daughter nucleus is often formed in an excited state and loses energy by gamma-ray emission. Proton radioactivity occurs in very neutron-deficient nuclei which have an odd number of protons and lie beyond the proton dripline, that means that the energy to remove a proton is less than zero. The proton is only held in the nucleus by the centrifugal barrier.</p> 
+                        <p><b>History:</b> This process was discovered in multiple experiments at GSI in Germany in 1982. </p>
+                    </div>
+                </div>
+
+                <div id='doubleProtonEmission' class='row'>
+                    <div class='col-md-4'>
+                        <!--img tbd-->
+                    </div>
+                    <div class='col-md-8'>
+                        <h2>Two-Proton Emission</h2>
+                        <div class='equation'>
+                            <sub>x</sub>N<sub>y</sub> &#8594; <sub>x-2</sub>N<sup>*</sup><sub>y</sub> + 2p 
+                        </div>
+                        <p><b>Process:</b> A nucleus spontaneously emits two protons. The daughter nucleus is often formed in an excited state and loses energy by gamma-ray emission. Two-proton radioactivity occurs in very neutron-deficient nuclei which lie beyond the proton dripline, that means that the energy to remove the two protons is less than zero. The two protons are only held in the nucleus by the centrifugal barrier.</p> 
+                        <p><b>History:</b> This process was discovered in experiments at both GANIL and GSI in 2002 looking at the decay of <sup>54</sup>Fe.</p>
+                    </div>
+                </div>
+
+                <div id='cluster' class='row'>
+                    <div class='col-md-4'>
+                        <!--img tbd-->
+                    </div>
+                    <div class='col-md-8'>
+                        <h2>Cluster Radioactivity</h2>
+                        <div class='equation'>
+                            <sub>x</sub>N<sub>y</sub> &#8594; <sub>x-6</sub>N<sup>*</sup><sub>y-8</sub> + <sup>14</sup><sub>6</sub>C<sub>8</sub> 
+                        </div>
+                        <p><b>Process:</b> A nucleus spontaneously emits a nucleus between roughly A=14-34. Cluster radioactivity is an extremely rare process and is only exhibited by a handful of nuclei in which the daughter nucleus is close to doubly-magic, like <sup>208</sup>Pb. In fact there are only 12 cases of cluster radioactivity discovered so far.</p> 
+                        <p><b>History:</b> This process was discovered by Rose and Jones in 1984 when they observed that in every 890 million alpha decays of <sup>223</sup>Ra there is one emission of a <sup>14</sup>C nucleus instead.</p>
+                    </div>
+                </div>
+
+                <div id='spontaneousFission' class='row'>
+                    <div class='col-md-4'>
+                        <!--img tbd-->
+                    </div>
+                    <div class='col-md-8'>
+                        <h2>Spontaneous Fission</h2>
+                        <div class='equation'>
+                            <sub>(x<sub>1</sub> + x<sub>2</sub>)</sub>N<sub>(y<sub>1</sub> + y<sub>2</sub>)</sub> &#8594; <sub>x<sub>1</sub></sub>N<sup>*</sup><sub>y<sub>1</sub></sub> + <sub>x<sub>2</sub></sub>N<sup>*</sup><sub>y<sub>2</sub></sub>
+                        </div>
+                        <p><b>Process:</b> A nucleus spontaneously splits into two pieces. The fragments often release several neutrons before the final daughter nuclei are formed in an excited state and loses energy by gamma-ray emission. Spontaneous fission occurs in heavy nuclei. Fission can also be induced by bombarding a heavy nucleus with neutrons, protons or photons.</p> 
+                        <p><b>History:</b> Spontaneous fission was first observed in 1940, by Petrzak and Flerov.</p>
+                    </div>
+                </div>
+
+                <div id='gammaEmission' class='row'>
+                    <div class='col-md-4'>
+                        <!--img tbd-->
+                    </div>
+                    <div class='col-md-8'>
+                        <h2>Gamma Emission</h2>
+                        <div class='equation'>
+                            <sub>x</sub>N<sup>*</sup><sub>y</sub> &#8594; <sub>x</sub>N<sub>y</sub> + &gamma;
+                        </div>
+                        <p><b>Process:</b> A nucleus in an excited state loses energy by emitting a gamma ray. A gamma ray is a high energy form of light or photon which is essentially a packet of energy. Gamma-ray emission can occur in any nucleus on the nuclear chart. An alternative process in certain transitions is internal conversion.</p> 
+                        <p><b>History:</b> This process was the third form of radioactivity to be discovered. It was first observed by Paul Villard in 1900.</p>
+                    </div>
+                </div>
+
+                <div id='ic' class='row'>
+                    <div class='col-md-4'>
+                        <!--img tbd-->
+                    </div>
+                    <div class='col-md-8'>
+                        <h2>Internal Conversion</h2>
+                        <div class='equation'>
+                            <sub>x</sub>N<sup>*</sup><sub>y</sub> &#8594; <sub>x</sub>N<sup>+1</sup><sub>y</sub> + e<sup>-</sup>
+                        </div>
+                        <p><b>Process:</b> A nucleus in an excited state loses energy by passing it to an atomic electron and ejecting it from the atom. The energy of the electron is equal to the transition energy minus the binding energy of the atomic orbital from which it came. Internal conversion can occur in any nucleus on the nuclear chart but is more common in heavy nuclei above lead. An alternative process for the nucleus to lose energy is &gamma; emission.</p> 
+                    </div>
+                </div>
+
+                <!--footer-->
+                 <div id='footer' class='footer'></div>
+
+            </div>
+        </div>
+
+
+
+        <script>
+            //inject navigation bar
+            promisePartial('nav').then(function(template){
+                document.getElementById('navigation').innerHTML = Mustache.to_html(template, {});
+                document.getElementById('linkPhysics').classList.add('active');
+                document.getElementById('linkPhysics').classList.add('active-custom');
+            })
+
+            //inject footer
+            promisePartial('footer').then(function(template){
+                document.getElementById('footer').innerHTML = Mustache.to_html(template, {});
+            })
+
+            //layout tweaks
+            centerTitle();
+
+            //keep things tidy for those who like to play with window sizes:
+            window.onresize = function(){
+                centerTitle();
+            }
+
+        </script>
+    </body>
+</html>
