@@ -14,10 +14,7 @@
     <body>
 
         <div id='wrap' class='wrap'>
-            <canvas id='embelishment'></canvas>
-
-            <div class='innerWrap'>
-
+            <div class='heroHeader'>
                 <!--navigation - poulate with nav.mustache-->
                 <nav id='navigation' class="navbar navbar-default navbar-custom"></nav>
 
@@ -31,44 +28,42 @@
                         GRIFFIN - Gamma-Ray Infrastructure For Fundamental Investigations of Nuclei - is a state-of-the-art facility for decay spectroscopy with exotic beams located at TRIUMF, Canada. An array of 16 hyper-pure germanium clover detectors coupled to a fully digital data acquisition system dramatically increases gamma ray detection efficiency and data aquisition throughput over past experiments, while leveraging a powerful suite of ancillary detectors developed for its predacesor, the 8pi.
                     </p>
                 </div>
-
-                <!--efficiency-->
-                <div class='row'>
-                    <h1>17x efficiency</h1>
-                    <div class='col-md-6'>
-                        <img class='inline' src='img/GRIFFIN_Eff.png'></img>
-                    </div>
-
-                    <div class='col-md-6'>
-                        <p class='splashText'>Absolute efficiency of the 8pi and GRIFFIN Spectrometers at ISAC-I as a function of gamma-ray energy. GRIFFIN is 17 times more efficient in gamma-ray singles (almost 300 times more efficiency for gamma-gamma coincidences) at 1 MeV, and around 40 times more efficient by 10 MeV, than its predacesor.</p>
-                    </div>
-                </div>
-
-                <!--toolkit-->
-                <div class='row subsequent'>
-                    <h1>Physics on the Web</h1>
-                    <div class='col-md-6 splashIcon'>
-                        <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
-                    </div>
-
-                    <div class='col-md-6'>
-                        <p class='splashText'>The <a href=''>GRIFFIN Toolkit</a> is a suite of web apps built for designing, understanding and running experiments at GRIFFIN, from anywhere on the web. Check out some of the tools we're using, or <a href=''>grab the code yourself</a>; all GRIFFIN web projects are MIT licensed and open source on GitHub.</p>
-                    </div>
-                </div>
-
-                <!--footer-->
-                <div id='footer' class='footer'></div>
-
+                <div class='learnMore'></div>
             </div>
+
+            <div class='detail'>
+                <div class='col-md-4'>
+                    <div class='center'>
+                        <h1>17x efficiency</h1>
+                        <a href='img/GRIFFIN_Eff.png'><img class='inline' src='img/GRIFFIN_Eff.png'></img></a>
+                    </div>
+                    <p class='splashText'>GRIFFIN is 17 times more efficient in gamma-ray singles (almost 300 times more efficiency for gamma-gamma coincidences) at 1 MeV, and around 40 times more efficient by 10 MeV, than its predacesor.</p>
+                </div>
+
+                <div class='col-md-4'>
+                    <div class='center'>
+                        <h1>Massive Data</h1>
+                        <img src='img/daq.png'></img>
+                    </div>
+                    <p class='splashText'>The GRIFFIN DAQ is capable of writing up to 200 TB of data to disk every week - allowing the exploration of rarer processes than ever before.</p>
+                </div>
+
+                <div class='col-md-4'>
+                    <div class='center'>
+                        <h1>Physics on the Web</h1>
+                        <img src='img/loveTheWeb.png'></img>
+                    </div>
+                    <p class='splashText'>The <a href=''>GRIFFIN Toolkit</a> is a suite of web apps built for designing, understanding and running experiments at GRIFFIN, all on the web. <a href=''>Check out our tools</a>, or <a href=''>look under the hood</a> - all GRIFFIN web projects are open source on GitHub.</p>
+                </div>
+
+                <div id='footer' class='footer'></div>
+            </div>
+
         </div>
 
 
 
         <script>
-            //draw embelishment frame
-            drawEmbelishment('embelishment')
-            window.onresize = drawEmbelishment.bind(null, 'embelishment');
-
             //inject navigation bar
             promisePartial('nav').then(function(template){
                 document.getElementById('navigation').innerHTML = Mustache.to_html(template, {"whiteLogo": true});
