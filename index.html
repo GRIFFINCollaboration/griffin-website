@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <script src="scripts/bootstrap3-3-5.min.js" type="text/javascript"></script>
         <script src="scripts/mustache.js" type="text/javascript"></script>
+        <script src="scripts/smooth-scroll.js"></script>
 
         <script src='scripts/griffin.js' type="text/javascript"></script>
         <link rel="stylesheet" href="css/general.css">
@@ -14,7 +15,7 @@
     <body>
 
         <div id='wrap' class='wrap'>
-            <div class='heroHeader'>
+            <div id='heroHeader' class='heroHeader'>
                 <!--navigation - poulate with nav.mustache-->
                 <nav id='navigation' class="navbar navbar-default navbar-custom"></nav>
 
@@ -28,7 +29,7 @@
                         GRIFFIN - Gamma-Ray Infrastructure For Fundamental Investigations of Nuclei - is a state-of-the-art facility for decay spectroscopy with exotic beams located at TRIUMF, Canada. An array of 16 hyper-pure germanium clover detectors coupled to a fully digital data acquisition system dramatically increases gamma ray detection efficiency and data aquisition throughput over past experiments, while leveraging a powerful suite of ancillary detectors developed for its predacesor, the 8pi.
                     </p>
                 </div>
-                <div class='learnMore'></div>
+                <a data-scroll id='moreInfo' href='#moreinfo'></a>
             </div>
 
             <div class='detail'>
@@ -64,6 +65,8 @@
 
 
         <script>
+            
+
             //inject navigation bar
             promisePartial('nav').then(function(template){
                 document.getElementById('navigation').innerHTML = Mustache.to_html(template, {"whiteLogo": true});
@@ -75,6 +78,18 @@
             promisePartial('footer').then(function(template){
                 document.getElementById('footer').innerHTML = Mustache.to_html(template, {});
             })
+
+            //mange the scroll link
+            smoothScroll.init();
+            manageScrollPosition();
+            window.onresize = manageScrollPosition;
+            function manageScrollPosition(){
+                var heroHeight = document.getElementById('heroHeader').offsetHeight, 
+                    scroll = document.getElementById('moreInfo');
+
+                scroll.setAttribute('style', 'top: calc(' + heroHeight + 'px - 5em)')
+            }
+
 
         </script>
     </body>
