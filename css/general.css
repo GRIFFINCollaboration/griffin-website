@@ -16,7 +16,7 @@ div.stub {
     background: linear-gradient( 0deg, rgba(255,255,255,0.4), rgba(255,255,255,0.4) ), url("../img/greyBKG.png");
     background-position: bottom;
     border: 2px solid #FFFFFF;
-    min-height: 300px;
+    min-height: 350px;
 }
 
 div.detail {
