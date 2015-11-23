@@ -52,7 +52,7 @@ a#moreInfo:focus{
 }
 
 div.detail {
-    background: linear-gradient( 0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2) ), url("../img/background-7.jpg");
+    background: linear-gradient( 0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2) ), url("../img/background-7.png");
     background-size: cover;
     padding: 5%;
     padding-top: 5em;
