@@ -13,9 +13,16 @@ div.row {
 }
 
 div.detectorStub{
-    width: 20em;
-    height: 20em;
-    border-radius: 10em;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+}
+
+@media (max-width: 992px) {
+    div.detectorStub{
+        width: 50vw;
+        height: 50vw;
+    }
 }
 
 h2.subheading {
