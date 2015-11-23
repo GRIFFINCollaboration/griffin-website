@@ -1,0 +1,139 @@
+<html>
+    <head>
+        <title>GRIFFIN Collaboration - DAQ</title>
+        <script src="scripts/jquery1-11-3.min.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="scripts/bootstrap3-3-5.min.js" type="text/javascript"></script>
+        <script src="scripts/mustache.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+        <script src='scripts/griffin.js' type="text/javascript"></script>
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/daq.css">
+    </head>
+
+    <body>
+
+        <div id='wrap' class='wrap'>
+            <div class='innerWrap'>
+
+                <!--navigation - poulate with nav.mustache-->
+                <nav id='navigation' class="navbar navbar-default navbar-custom"></nav>
+
+                <!--splash-->
+                <div id='jumbo' class="jumbotron jumbotron-custom">
+                    <div id='titleBub' class='leadBubble'></div>
+                    <div id='titleText' class='leadText'>
+                        <h1>Data Acquisition</h1>
+                        <p class='splashText'>GRIFFIN is instrumented with a state-of-the-art digital data acquisition system. The project pushes the capabilities of modern digital electronics technology to achieve sustained data through-put of 300 Mb per second, maximizing the capabilities of the spectrometer. At the same time, with minimal parameter modifications, the DAQ can perform precision measurements with an uncertainty level of less than 0.05%.</p>
+                    </div>
+                </div>
+
+                
+                <div id='grif16' class='row'>
+                    <div class='col-md-12'>
+                        <h2>GRIF-16 Digitizer</h2>
+                        <h2 class='subheading'><small>Digitization</small></h2>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-md-4'>
+                        <img class='daqPic' src='img/grif16.jpg'></img>
+                    </div>
+                    <div class='col-md-8'>
+                        <p>A 16-channel, 14-bit, 100MHz sampling ADC module. The GRIF-16 is used to read the signals from the GRIFFIN HPGe detectors, PACES detectors, as well as the output of the LaBr3 TAC modules.</p>
+                    </div>
+                </div>
+                
+                <div id='grif4G' class='row'>
+                    <div class='col-md-12'>
+                        <h2>GRIF-4G Digitizer</h2>
+                        <h2 class='subheading'><small>Fast Digitization</small></h2>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-md-4'>
+                        <img class='daqPic' src='img/grif4G.jpg'></img>
+                    </div>
+                    <div class='col-md-8'>
+                        <p>A 4-channel, 14-bit, 1GHz sampling ADC module. The GRIF-4G is used to read out the SCEPTAR plastic scintillator signals in GRIFFIN as well as the DESCANT scintillator signals.</p>
+                    </div>
+                </div>
+
+                <div id='collector' class='row'>
+                    <div class='col-md-12'>
+                        <h2>GRIFFIN Collectors</h2>
+                        <h2 class='subheading'><small>Assembly & Triggering</small></h2>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-md-4'>
+                        <img class='daqPic' src='img/grifC.jpg'></img>
+                    </div>
+                    <div class='col-md-8'>
+                        <p>The collector modules are operated in two levels. The lower level collectors are connected directly to up to 16 digitizer modules to conenctrate the data collected from them and pass them to the master collector module. The master level collector module is responsible for coordination of the experiment and runs the filter algorithm to determine what data is written to disk and what is rejected.</p>
+                    </div>
+                </div>
+
+                <div id='clock' class='row'>
+                    <div class='col-md-12'>
+                        <h2>GRIFFIN Clock</h2>
+                        <h2 class='subheading'><small>Precision Timing</small></h2>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-md-4'>
+                        <img class='daqPic' src='img/grifClk.jpg'></img>
+                    </div>
+                    <div class='col-md-8'>
+                        <p>The GRIFFIN Clock (GRIF-CLK) modules generate and distribute the master clock and syncronization signals for the entire GRIFFIN DAQ system. A single Master GRIF-CLK module houses a chip-sized atomic clock (CSAC) which produces a precision 10MHz reference signal. The 10MHz master clock signal is then fanned-out through slave GRIF-CLK modules to all collecters digitizers in the system.</p>
+                    </div>
+                </div>
+
+                <div id='ppg' class='row'>
+                    <div class='col-md-12'>
+                        <h2>GRIFFIN Programmable Pulse Generator</h2>
+                        <h2 class='subheading'><small>Experimental Control</small></h2>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-md-4'>
+                        <img class='daqPic' src='img/grifPPG.jpg'></img>
+                    </div>
+                    <div class='col-md-8'>
+                        <p>The GRIFFIN Programmable Pulse Generator (GRIF-PPG) module generates NIM and TTL logic signals to be used as control signals for equipment. The cycling of the experiment (beam-on, beam-off, tape move and operation of the electrostatic beam kicker etc) is controlled by the master GRIF-C module and when necessary the pattern of logic signals is output by the GRIF-PPG module.</p>
+                    </div>
+                </div>
+
+            </div>
+            <!--footer-->
+            <div id='footer' class='footer'></div>
+        </div>
+
+
+
+        <script>
+            //inject navigation bar
+            promisePartial('nav').then(function(template){
+                document.getElementById('navigation').innerHTML = Mustache.to_html(template, {});
+                document.getElementById('linkDAQ').classList.add('active');
+                document.getElementById('linkDAQ').classList.add('active-custom');
+            })
+
+            //inject footer
+            promisePartial('footer').then(function(template){
+                document.getElementById('footer').innerHTML = Mustache.to_html(template, {});
+            })
+
+            //layout tweaks
+            centerTitle();
+
+            //keep things tidy for those who like to play with window sizes:
+            window.onresize = function(){
+                centerTitle();
+            }
+
+        </script>
+    </body>
+</html>
