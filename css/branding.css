@@ -1,0 +1,19 @@
+div.leadBubble {
+    background: linear-gradient( 0deg, rgba(255,255,255,0.85), rgba(255,255,255,0.85) ), url("../img/branding/GRIFFIN_Logo_Black.png");
+    background-position: center;
+    background-size: 20em;
+    background-repeat: no-repeat;
+}
+
+img.logoGallery{
+    width: 100%;
+}
+
+table.logos td{
+    padding: 1em;
+}
+
+.white{
+    background-color: #EEEEEE;
+    padding: 2px;
+}
