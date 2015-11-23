@@ -13,7 +13,8 @@ img.inline {
 }
 
 div.stub {
-    background-color: #EEEEEE;
+    background: linear-gradient( 0deg, rgba(255,255,255,0.4), rgba(255,255,255,0.4) ), url("../img/greyBKG.png");
+    background-position: bottom;
     border: 2px solid #FFFFFF;
     min-height: 300px;
 }
@@ -30,6 +31,14 @@ div.detail {
 
 div.center {
     text-align: center;
+}
+
+img.linkImg {
+    opacity: 0.8;
+}
+
+img.linkImg:hover{
+    opacity: 1;
 }
 
 /*navbar*/
