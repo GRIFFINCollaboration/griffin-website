@@ -3,3 +3,7 @@ div.leadBubble {
     background-position: center;
     background-size: cover;
 }
+
+div.stub {
+    min-height: 400px;
+}
