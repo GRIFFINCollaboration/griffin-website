@@ -35,17 +35,7 @@ div.heroHeader {
     padding-bottom: 5em;
 }
 
-a#moreInfo{
-    background: url("../img/downarrow.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    width:10em;
-    height:10em;
-    border-radius: 5em;
-    background-color: #3498db;
-    position: absolute;
-    left: calc(50% - 5em);
-}
+
 
 a#moreInfo:focus{
     outline: none;
@@ -121,6 +111,10 @@ div.row.subsequent {
 }
 
 div.splashIcon {
+    text-align: center;
+}
+
+div.center {
     text-align: center;
 }
 
