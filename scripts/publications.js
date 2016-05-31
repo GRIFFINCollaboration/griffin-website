@@ -1,7 +1,7 @@
 physics = [
     {
         title: 'Half-Lives of Neutron-Rich 128-130Cd',
-        authors: 'R. Dunlop',
+        authors: 'R. Dunlop et al.',
         link: 'http://journals.aps.org/prc/',
         linkTitle: 'Submitted to Phys. Rev. C'
     }
