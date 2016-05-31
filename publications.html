@@ -33,7 +33,12 @@
                 <!--content stubs-->
                 <div class='row'>
                     <div class='col-md-12'>
-                        <table id='pubs-table' class='table'></table>
+		      <h3>Physics Results</h3>
+                        <table id='pubs-physics-table' class='table'></table>
+		      <h3>Technical and Overview</h3>
+                        <table id='pubs-technical-table' class='table'></table>
+		      <h3>Conference Proceedings</h3>
+                        <table id='pubs-conference-table' class='table'></table>
                     </div>
                 </div>
             </div>
@@ -49,7 +54,13 @@
 
             //inject pubs
             promisePartial('pubs').then(function(template){
-                document.getElementById('pubs-table').innerHTML = Mustache.to_html(template, {publications: publications});
+                document.getElementById('pubs-physics-table').innerHTML = Mustache.to_html(template, {publications: physics});
+            })
+            promisePartial('pubs').then(function(template){
+                document.getElementById('pubs-conference-table').innerHTML = Mustache.to_html(template, {publications: conference});
+            })
+            promisePartial('pubs').then(function(template){
+                document.getElementById('pubs-technical-table').innerHTML = Mustache.to_html(template, {publications: technical});
             })            
 
             //inject footer
