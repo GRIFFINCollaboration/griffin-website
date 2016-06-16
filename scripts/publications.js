@@ -2,8 +2,8 @@ physics = [
     {
         title: 'Half-Lives of Neutron-Rich 128-130Cd',
         authors: 'R. Dunlop et al.',
-        link: 'http://journals.aps.org/prc/',
-        linkTitle: 'Accepted to Phys. Rev. C, Rapid Communication'
+        link: 'http://link.aps.org/doi/10.1103/PhysRevC.93.062801',
+        linkTitle: 'Phys. Rev. C 93, 062801(R) (2016)'
     }
 ]
 conference = [
