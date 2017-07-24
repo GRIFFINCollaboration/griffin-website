@@ -8,6 +8,13 @@ physics = [
 ]
 conference = [
     {
+        title: 'First results from GRIFFIN including half-Lives of 128-130Cd',
+        authors: 'R. Dunlop et al.',
+        link: 'https://pos.sissa.it/archive/conferences/281/140/INPC2016_140.pdf',
+        linkTitle: 'Proceedings of Science (INPC2016), 140 (2017)'
+    },
+
+    {
         title: 'High-statistics beta-decay measurements at TRIUMF-ISAC and the transition from the 8pi spectrometer to GRIFFIN',
         authors: 'P.E. Garrett et al.',
         link: 'http://www.actaphys.uj.edu.pl/fulltext?series=Reg&vol=48&page=523',
@@ -20,6 +27,7 @@ conference = [
         link: 'http://www.actaphys.uj.edu.pl/fulltext?series=Reg&vol=47&page=713',
         linkTitle: 'Acta Phys.Pol. B, 47, 713 (2016)'
     },
+
     {
         title: 'Far from easy spectroscopy with the 8pi and GRIFFIN spectrometers at TRIUMF-ISAC',
         authors: 'P.E. Garrett et al.',
