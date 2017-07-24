@@ -8,6 +8,13 @@ physics = [
 ]
 conference = [
     {
+        title: 'High-statistics beta-decay measurements at TRIUMF-ISAC and the transition from the 8pi spectrometer to GRIFFIN',
+        authors: 'P.E. Garrett et al.',
+        link: 'http://www.actaphys.uj.edu.pl/fulltext?series=Reg&vol=48&page=523',
+        linkTitle: 'Acta Phys.Pol. B, 48, 523 (2017)'
+    },
+
+    {
         title: 'Exploring exotic nuclei with the GRIFFIN Spectrometer at TRIUMF-ISAC',
         authors: 'A.B. Garnsworthy',
         link: 'http://www.actaphys.uj.edu.pl/fulltext?series=Reg&vol=47&page=713',
