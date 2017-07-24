@@ -19,6 +19,12 @@ conference = [
         authors: 'A.B. Garnsworthy',
         link: 'http://www.actaphys.uj.edu.pl/fulltext?series=Reg&vol=47&page=713',
         linkTitle: 'Acta Phys.Pol. B, 47, 713 (2016)'
+    },
+    {
+        title: 'Far from easy spectroscopy with the 8pi and GRIFFIN spectrometers at TRIUMF-ISAC',
+        authors: 'P.E. Garrett et al.',
+        link: 'http://iopscience.iop.org/article/10.1088/1742-6596/639/1/012006/pdf',
+        linkTitle: 'Journal of Physics Conference Series 639, 012006 (2015)'
     }  
 ]
 technical = [
