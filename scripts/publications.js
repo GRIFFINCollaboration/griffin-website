@@ -1,5 +1,11 @@
 physics = [
     {
+        title: 'Spectroscopy of 50Sc and ab initio calculations of B(M3) strengths',
+        authors: 'A.B. Garnsworthy et al.',
+        link: 'https://link.aps.org/doi/10.1103/PhysRevC.96.044329',
+        linkTitle: 'Phys. Rev. C 96, 044329 (2017)'
+    },
+    {
         title: 'Half-Lives of Neutron-Rich 128-130Cd',
         authors: 'R. Dunlop et al.',
         link: 'http://link.aps.org/doi/10.1103/PhysRevC.93.062801',
