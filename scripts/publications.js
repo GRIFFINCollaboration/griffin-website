@@ -4,6 +4,8 @@ physics = [
         authors: 'A.B. Garnsworthy et al.',
         link: 'https://link.aps.org/doi/10.1103/PhysRevC.96.044329',
         linkTitle: 'Phys. Rev. C 96, 044329 (2017)'
+        openLink: 'http://arxiv.org/abs/1710.06338',
+        openLinkTitle: 'arXiv:1710.06338'
     },
     {
         title: 'Half-Lives of Neutron-Rich 128-130Cd',
