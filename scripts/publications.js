@@ -3,7 +3,7 @@ physics = [
         title: 'Spectroscopy of 50Sc and ab initio calculations of B(M3) strengths',
         authors: 'A.B. Garnsworthy et al.',
         link: 'https://link.aps.org/doi/10.1103/PhysRevC.96.044329',
-        linkTitle: 'Phys. Rev. C 96, 044329 (2017)'
+        linkTitle: 'Phys. Rev. C 96, 044329 (2017)',
         openLink: 'http://arxiv.org/abs/1710.06338',
         openLinkTitle: 'arXiv:1710.06338'
     },
