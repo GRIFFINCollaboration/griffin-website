@@ -3,7 +3,9 @@ physics = [
         title: 'High-precision half-life measurement for the superallowed Fermi beta+ emitter 22Mg',
         authors: 'M.R. Dunlop et al.',
         link: 'https://link.aps.org/doi/10.1103/PhysRevC.96.045502',
-        linkTitle: 'Phys. Rev. C 96, 045502 (2017)'
+        linkTitle: 'Phys. Rev. C 96, 045502 (2017)',
+        openLink: 'http://arxiv.org/abs/1711.00827',
+        openLinkTitle: 'arXiv:1711.00827'	
     },
     {
         title: 'Spectroscopy of 50Sc and ab initio calculations of B(M3) strengths',
