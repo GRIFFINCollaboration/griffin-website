@@ -19,7 +19,9 @@ physics = [
         title: 'Half-Lives of Neutron-Rich 128-130Cd',
         authors: 'R. Dunlop et al.',
         link: 'http://link.aps.org/doi/10.1103/PhysRevC.93.062801',
-        linkTitle: 'Phys. Rev. C 93, 062801(R) (2016)'
+        linkTitle: 'Phys. Rev. C 93, 062801(R) (2016)',
+        openLink: 'http://arxiv.org/abs/1711.05621',
+        openLinkTitle: 'arXiv:1711.05621'
     }
 ]
 conference = [
