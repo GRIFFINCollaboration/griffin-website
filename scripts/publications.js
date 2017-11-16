@@ -63,7 +63,9 @@ technical = [
         title: 'Characteristics of GRIFFIN high-purity germanium clover detectors',
         authors: 'U. Rizwan et al.',
         link: 'http://www.sciencedirect.com/science/article/pii/S0168900216300341',
-        linkTitle: 'Nucl. Inst. Meths. A 820, 126 (2016)'
+        linkTitle: 'Nucl. Inst. Meths. A 820, 126 (2016)',
+        openLink: 'http://arxiv.org/abs/1711.05287',
+        openLinkTitle: 'arxiv:1711.05287'
     },
 
     {
