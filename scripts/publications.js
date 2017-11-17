@@ -58,7 +58,9 @@ technical = [
         title: 'The GRIFFIN data acquisition system',
         authors: 'A.B. Garnsworthy et al.',
         link: 'http://www.sciencedirect.com/science/article/pii/S0168900217302243',
-        linkTitle: 'Nucl. Inst. Meths. A 853, 85 (2017)'
+        linkTitle: 'Nucl. Inst. Meths. A 853, 85 (2017)',
+        openLink: 'http://arxiv.org/abs/1711.06236',
+        openLinkTitle: 'arXiv:1711.06236'
     },
 
     {
