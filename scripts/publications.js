@@ -40,6 +40,13 @@ conference = [
     },
 
     {
+        title: 'Web-based parameter control and real-time waveform display for the GRIFFIN experiment',
+        authors: 'B.J. Shaw and P.A. Amaudruz and D.P. Bishop',
+        link: 'https://doi.org/10.1109/RTC.2016.7543140',
+        linkTitle: 'Proceedings of 2016 IEEE-NPSS Real Time Conference (RT), 7543140 (2016)'
+    },
+
+    {
         title: 'Exploring exotic nuclei with the GRIFFIN Spectrometer at TRIUMF-ISAC',
         authors: 'A.B. Garnsworthy',
         link: 'http://www.actaphys.uj.edu.pl/fulltext?series=Reg&vol=47&page=713',
