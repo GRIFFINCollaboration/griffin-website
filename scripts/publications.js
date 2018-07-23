@@ -62,6 +62,15 @@ conference = [
 ]
 technical = [
     {
+        title: 'Gamma-gamma angular correlation analysis techniques with the GRIFFIN spectrometer',
+        authors: 'J.K. Smith et al.',
+        link: 'https://griffin.triumf.ca/publications.html',
+        linkTitle: 'Submitted to Nucl. Inst. Meths. A (2018)',
+        openLink: 'http://arxiv.org/abs/1807.07570',
+        openLinkTitle: 'arXiv:1807.07570'
+    },
+
+    {
         title: 'The GRIFFIN data acquisition system',
         authors: 'A.B. Garnsworthy et al.',
         link: 'http://www.sciencedirect.com/science/article/pii/S0168900217302243',
