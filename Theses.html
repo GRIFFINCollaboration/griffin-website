@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>GRIFFIN Collaboration - Theses</title>
+        <script src="scripts/jquery1-11-3.min.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="scripts/bootstrap3-3-5.min.js" type="text/javascript"></script>
+        <script src="scripts/mustache.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"></link>
+
+        <script src='scripts/griffin.js' type="text/javascript"></script>
+        <script src='scripts/theses.js' type="text/javascript"></script>
+        <link rel="stylesheet" href="css/general.css"></link>
+        <link rel="stylesheet" href="css/theses.css"></link>
+    </head>
+
+    <body>
+
+        <div id='wrap' class='wrap'>
+            <div class='innerWrap'>
+
+                <!--navigation - poulate with nav.mustache-->
+                <nav id='navigation' class="navbar navbar-default navbar-custom"></nav>
+
+                <!--splash-->
+                <div id='jumbo' class="jumbotron jumbotron-custom">
+                    <div id='titleBub' class='leadBubble'></div>
+                    <div id='titleText' class='leadText'>
+                        <h1>Theses</h1>
+                        <p class='splashText'>A big part of the GRIFFIN mission is to train the next generation of scientific leaders. Undergraduate students work with the GRIFFIN equipment and analyze the data it collects to produce collaboration reports as well as complete Masters and PhD qualifications.</p>
+                    </div>
+                </div>
+
+                <!--content stubs-->
+                <div class='row'>
+                    <div class='col-md-12'>
+		      <h3>PhD Theses</h3>
+                        <table id='theses-phd-table' class='table'></table>
+		      <h3>MSc and MPhys Theses</h3>
+                        <table id='theses-masters-table' class='table'></table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            //inject navigation bar
+            promisePartial('nav').then(function(template){
+                document.getElementById('navigation').innerHTML = Mustache.to_html(template, {});
+                document.getElementById('linkTheses').classList.add('active');
+                document.getElementById('linkTheses').classList.add('active-custom');
+            })
+
+            //inject theses
+            promisePartial('theses').then(function(template){
+                document.getElementById('theses-phd-table').innerHTML = Mustache.to_html(template, {theses: phd});
+            })
+            promisePartial('theses').then(function(template){
+                document.getElementById('theses-masters-table').innerHTML = Mustache.to_html(template, {theses: masters});
+            })         
+
+            //inject footer
+            promisePartial('footer').then(function(template){
+                document.getElementById('footer').innerHTML = Mustache.to_html(template, {});
+            })
+
+            //layout tweaks
+            centerTitle();
+
+            //keep things tidy for those who like to play with window sizes:
+            window.onresize = function(){
+                centerTitle();
+            }
+
+        </script>
+    </body>
+
+</html>

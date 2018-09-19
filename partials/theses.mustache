@@ -1,0 +1,17 @@
+<tr>
+    <td>Student</td>
+    <td>Institution</td>
+    <td>Supervisor</td>
+    <td>Year</td>
+    <td>Thesis Title</td>
+</tr>
+
+{{# theses}}
+    <tr>
+        <td class='col-md-4'>{{student}}</td>
+        <td class='col-md-4'>{{institution}}</td>
+        <td class='col-md-4'>{{supervisor}}</td>
+        <td class='col-md-4'>{{year}}</td>
+        <td class='col-md-4'><a href={{link}}>{{linkTitle}}</a></td>
+    </tr>
+{{/ theses}}
