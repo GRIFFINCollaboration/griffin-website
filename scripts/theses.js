@@ -42,6 +42,14 @@ masters = [
         linkTitle: 'Structure of 26Mg Through the Analysis of the Beta Decay of 26Na'
     },
     {
+        student: 'Andrew MacLean',
+        institution: 'University of Guelph',
+        supervisor: 'C.E. Svensson',
+        year: '2016',
+        link: 'https://www.physics.uoguelph.ca/Nucweb/theses/AMacleanMsc.pdf',
+        linkTitle: 'Gamma-gamma angular correlation measurements with GRIFFIN'
+    },
+    {
         student: 'Sam Hallam',
         institution: 'University of Surrey/TRIUMF',
         supervisor: 'A.B. Garnsworthy',
