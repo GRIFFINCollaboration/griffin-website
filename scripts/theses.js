@@ -12,7 +12,7 @@ phd = [
         institution: 'Simon Fraser University',
         supervisor: 'C. Andreoiu',
         year: '2016',
-        link: 'https://griffin.triumf.ca',
+        link: 'http://summit.sfu.ca/item/16967',
         linkTitle: 'The Investigation of the Beta- Decay of 46K: Detailed Spectroscopy of the Low-Lying Structure of 46Ca with the GRIFFIN Spectrometer'
     }
 ]
