@@ -62,7 +62,7 @@ masters = [
         institution: 'Simon Fraser University',
         supervisor: 'K. Starosta',
         year: '2015',
-        link: 'https://griffin.triumf.ca',
+        link: 'http://summit.sfu.ca/item/15733',
         linkTitle: 'Development of Gamma-Ray Spectroscopy Techniques for Fundamental and Applied Research'
     },
     {
