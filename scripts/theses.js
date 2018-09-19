@@ -1,7 +1,7 @@
 phd = [
     {
         student: 'Michelle Dunlop',
-        instiution: 'University of Guelph',
+        institution: 'University of Guelph',
         supervisor: 'C.E. Svensson',
         year: '2018',
         link: 'https://www.physics.uoguelph.ca/Nucweb/theses/Dunlop_Michelle_201808_PhD.pdf',
@@ -9,7 +9,7 @@ phd = [
     },
     {
         student: 'Jennifer Pore',
-        instiution: 'Simon Fraser University',
+        institution: 'Simon Fraser University',
         supervisor: 'C. Andreoiu',
         year: '2016',
         link: 'https://griffin.triumf.ca',
@@ -19,7 +19,7 @@ phd = [
 masters = [
     {
         student: 'Yukiya Saito',
-        instiution: 'University of British Columbia/TRIUMF',
+        institution: 'University of British Columbia/TRIUMF',
         supervisor: 'I. Dillmann',
         year: '2018',
         link: 'https://griffin.triumf.ca',
@@ -27,7 +27,7 @@ masters = [
     },
     {
         student: 'Calum Jones',
-        instiution: 'University of Surrey/TRIUMF',
+        institution: 'University of Surrey/TRIUMF',
         supervisor: 'A.B. Garnsworthy',
         year: '2018',
         link: 'https://griffin.triumf.ca',
@@ -35,7 +35,7 @@ masters = [
     },
     {
         student: 'James Measures',
-        instiution: 'University of Surrey/TRIUMF',
+        institution: 'University of Surrey/TRIUMF',
         supervisor: 'A.B. Garnsworthy',
         year: '2017',
         link: 'https://griffin.triumf.ca',
@@ -43,7 +43,7 @@ masters = [
     },
     {
         student: 'Sam Hallam',
-        instiution: 'University of Surrey/TRIUMF',
+        institution: 'University of Surrey/TRIUMF',
         supervisor: 'A.B. Garnsworthy',
         year: '2016',
         link: 'https://griffin.triumf.ca',
@@ -51,7 +51,7 @@ masters = [
     },
     {
         student: 'Usman Rizwan',
-        instiution: 'Simon Fraser University',
+        institution: 'Simon Fraser University',
         supervisor: 'K. Starosta',
         year: '2015',
         link: 'https://griffin.triumf.ca',
@@ -59,7 +59,7 @@ masters = [
     },
     {
         student: 'Lisa Morrison',
-        instiution: 'University of Surrey/TRIUMF',
+        institution: 'University of Surrey/TRIUMF',
         supervisor: 'A.B. Garnsworthy',
         year: '2015',
         link: 'https://griffin.triumf.ca',
