@@ -62,6 +62,14 @@ conference = [
 ]
 technical = [
     {
+        title: 'The GRIFFIN Facility for Decay-Spectroscopy Studies at TRIUMF-ISAC',
+        authors: 'A.B. Garnsworthy et al.',
+        link: 'https://griffin.triumf.ca/publications.html',
+        linkTitle: 'Submitted to Nucl. Inst. Meths. A (2018)',
+        openLink: 'https://arxiv.org/abs/1809.07183',
+        openLinkTitle: 'arxiv.org/abs/1809.07183'
+    },
+    {
         title: 'Gamma-gamma angular correlation analysis techniques with the GRIFFIN spectrometer',
         authors: 'J.K. Smith et al.',
         link: 'https://griffin.triumf.ca/publications.html',
