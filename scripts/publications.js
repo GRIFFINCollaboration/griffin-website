@@ -25,6 +25,14 @@ physics = [
     }
 ]
 conference = [
+
+    {
+        title: 'High-statistics beta-decay measurements at TRIUMF-ISAC and the transition from the 8pi spectrometer to GRIFFIN',
+        authors: 'P.E. Garrett et al.',
+        link: 'https://doi.org/10.1051/epjconf/201819304011',
+        linkTitle: 'Proceedings of FUSION2017, EPJ Web Conf. 193, 04011 (2018)'
+    },
+
     {
         title: 'First results from GRIFFIN including half-Lives of 128-130Cd',
         authors: 'R. Dunlop et al.',
