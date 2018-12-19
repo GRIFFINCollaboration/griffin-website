@@ -72,16 +72,16 @@ technical = [
     {
         title: 'The GRIFFIN Facility for Decay-Spectroscopy Studies at TRIUMF-ISAC',
         authors: 'A.B. Garnsworthy et al.',
-        link: 'https://griffin.triumf.ca/publications.html',
-        linkTitle: 'Accepted to Nucl. Inst. Meths. A (2018)',
+        link: 'https://doi.org/10.1016/j.nima.2018.11.115',
+        linkTitle: 'Nucl. Inst. Meths. A 918, 9 (2019)',
         openLink: 'https://arxiv.org/abs/1809.07183',
         openLinkTitle: 'arxiv:1809.07183'
     },
     {
         title: 'Gamma-gamma angular correlation analysis techniques with the GRIFFIN spectrometer',
         authors: 'J.K. Smith et al.',
-        link: 'https://griffin.triumf.ca/publications.html',
-        linkTitle: 'Accepted to Nucl. Inst. Meths. A (2018)',
+        link: 'https://doi.org/10.1016/j.nima.2018.10.097',
+        linkTitle: 'In Press in Nucl. Inst. Meths. A (2019)',
         openLink: 'http://arxiv.org/abs/1807.07570',
         openLinkTitle: 'arXiv:1807.07570'
     },
