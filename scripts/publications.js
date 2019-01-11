@@ -77,11 +77,12 @@ technical = [
         openLink: 'https://arxiv.org/abs/1809.07183',
         openLinkTitle: 'arxiv:1809.07183'
     },
+    
     {
         title: 'Gamma-gamma angular correlation analysis techniques with the GRIFFIN spectrometer',
         authors: 'J.K. Smith et al.',
         link: 'https://doi.org/10.1016/j.nima.2018.10.097',
-        linkTitle: 'In Press in Nucl. Inst. Meths. A (2019)',
+        linkTitle: 'Nucl. Inst. Meths. A 922, 47 (2019)',
         openLink: 'http://arxiv.org/abs/1807.07570',
         openLinkTitle: 'arXiv:1807.07570'
     },
