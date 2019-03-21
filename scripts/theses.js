@@ -1,5 +1,13 @@
 phd = [
     {
+        student: 'Nikita Bernier',
+        institution: 'University of British Columbia/TRIUMF',
+        supervisor: 'R. Kruecken/I. Dillmann',
+        year: '2018',
+        link: 'https://open.library.ubc.ca/cIRcle/collections/ubctheses/24/items/1.0376019',
+        linkTitle: 'Decay Spectroscopy of Neutron-Rich Cadmium Around the N = 82 Shell Closure'
+    },
+    {
         student: 'Michelle Dunlop',
         institution: 'University of Guelph',
         supervisor: 'C.E. Svensson',
@@ -22,7 +30,7 @@ masters = [
         institution: 'University of British Columbia/TRIUMF',
         supervisor: 'I. Dillmann',
         year: '2018',
-        link: 'https://griffin.triumf.ca',
+        link: 'https://open.library.ubc.ca/cIRcle/collections/ubctheses/24/items/1.0371206',
         linkTitle: 'Decay spectroscopy of neutron-rich 129Cd with the GRIFFIN spectrometer'
     },
     {
