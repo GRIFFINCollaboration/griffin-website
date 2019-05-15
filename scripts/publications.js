@@ -2,10 +2,10 @@ physics = [
     {
         title: 'Beta-decay and beta-delayed neutron decay of the N=82 nucleus 131In',
         authors: 'R. Dunlop et al.',
-        link: 'https://journals.aps.org/prc/accepted/1f071Pa9Lf613b0ac5be3aa6569fc280579cee534',
-        linkTitle: 'Accepted to Phys. Rev. C (2019)',
-        openLink: 'griffin.triumf.ca/publications.html',
-        openLinkTitle: 'TBA'
+        link: 'https://link.aps.org/doi/10.1103/PhysRevC.99.045805',
+        linkTitle: 'Phys. Rev. C 99, 045805 (2019)',
+        openLink: 'https://arxiv.org/abs/1903.12277',
+        openLinkTitle: 'arXiv:1903.12277'
     },
     {
         title: 'High-precision half-life measurement for the superallowed Fermi beta+ emitter 22Mg',
