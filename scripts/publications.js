@@ -1,6 +1,6 @@
 physics = [
     {
-        title: 'Shape coexistence in the neutron-deficient Pb region: A systematic study of the even 188-200Hg with GRIFFIN',
+        title: 'Shape coexistence in the neutron-deficient Pb region: A systematic study of lifetimes in the even 188-200Hg with the GRIFFIN spectrometer at TRIUMF',
         authors: 'B. Olaizola et al.',
         link: 'https://link.aps.org/doi/10.1103/PhysRevC.100.024301',
         linkTitle: 'Phys. Rev. C 100, 024301 (2019)',
