@@ -1,5 +1,13 @@
 physics = [
     {
+        title: 'Shape coexistence in the neutron-deficient Pb region: A systematic study of the even 188-200Hg with GRIFFIN',
+        authors: 'B. Olaizola et al.',
+        link: 'https://link.aps.org/doi/10.1103/PhysRevC.100.024301',
+        linkTitle: 'Phys. Rev. C 100, 024301 (2019)',
+        openLink: 'http://arxiv.org/abs/1907.12274',
+        openLinkTitle: 'arXiv:1907.12274'
+    },
+    {
         title: 'Beta-decay and beta-delayed neutron decay of the N=82 nucleus 131In',
         authors: 'R. Dunlop et al.',
         link: 'https://link.aps.org/doi/10.1103/PhysRevC.99.045805',
