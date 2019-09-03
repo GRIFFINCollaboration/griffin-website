@@ -1,5 +1,13 @@
 phd = [
     {
+        student: 'Ryan Dunlop',
+        institution: 'University of Guelph',
+        supervisor: 'C.E. Svensson',
+        year: '2019',
+        link: 'http://hdl.handle.net/10214/16278',
+        linkTitle: 'Beta and beta-delayed neutron decay of the N = 82 nuclei 128-130Cd and 131In studied with the Gamma-Ray Infrastructure for Fundamental Investigations of Nuclei (GRIFFIN)'
+    },
+    {
         student: 'Nikita Bernier',
         institution: 'University of British Columbia/TRIUMF',
         supervisor: 'R. Kruecken/I. Dillmann',
@@ -25,6 +33,14 @@ phd = [
     }
 ]
 masters = [
+    {
+        student: 'Tammy Zidar',
+        institution: 'University of Guelph',
+        supervisor: 'C.E. Svensson',
+        year: '2018',
+        link: 'http://hdl.handle.net/10214/14706',
+        linkTitle: 'Beta decay of neutron-rich 33Mg'
+    },
     {
         student: 'Yukiya Saito',
         institution: 'University of British Columbia/TRIUMF',
