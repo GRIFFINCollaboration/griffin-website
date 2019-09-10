@@ -34,6 +34,14 @@ phd = [
 ]
 masters = [
     {
+        student: 'Daniel Yates',
+        institution: 'University of British Columbia/TRIUMF',
+        supervisor: 'R. Kruecken/I. Dillmann',
+        year: '2019',
+        link: 'http://hdl.handle.net/2429/71312',
+        linkTitle: 'Decay spectroscopy of Europium-160'
+    },
+    {
         student: 'Tammy Zidar',
         institution: 'University of Guelph',
         supervisor: 'C.E. Svensson',
@@ -44,7 +52,7 @@ masters = [
     {
         student: 'Yukiya Saito',
         institution: 'University of British Columbia/TRIUMF',
-        supervisor: 'I. Dillmann',
+        supervisor: 'R. Kruecken/I. Dillmann',
         year: '2018',
         link: 'https://open.library.ubc.ca/cIRcle/collections/ubctheses/24/items/1.0371206',
         linkTitle: 'Decay spectroscopy of neutron-rich 129Cd with the GRIFFIN spectrometer'
