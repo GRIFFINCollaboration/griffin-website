@@ -2,8 +2,8 @@ physics = [
     {
         title: 'Detailed spectroscopy of 46Ca: An investigation of the beta decay of 46K',
         authors: 'J. Pore et al.',
-        link: 'https://journals.aps.org/prc/accepted',
-        linkTitle: 'Accepted to Phys. Rev. C',
+        link: 'https://link.aps.org/doi/10.1103/PhysRevC.100.054327',
+        linkTitle: 'Phys. Rev. C 100, 054327 (2019)',
         openLink: 'https://arxiv.org/',
         openLinkTitle: 'arXiv'
     },
