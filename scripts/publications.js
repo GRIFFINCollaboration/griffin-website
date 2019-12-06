@@ -4,9 +4,10 @@ physics = [
         authors: 'J. Pore et al.',
         link: 'https://link.aps.org/doi/10.1103/PhysRevC.100.054327',
         linkTitle: 'Phys. Rev. C 100, 054327 (2019)',
-        openLink: 'https://arxiv.org/',
-        openLinkTitle: 'arXiv'
+        openLink: 'http://arxiv.org/abs/1912.02407',
+        openLinkTitle: 'arXiv:1912.02407'
     },
+    {
         title: 'Shape coexistence in the neutron-deficient Pb region: A systematic study of lifetimes in the even 188-200Hg with the GRIFFIN spectrometer at TRIUMF',
         authors: 'B. Olaizola et al.',
         link: 'https://link.aps.org/doi/10.1103/PhysRevC.100.024301',
