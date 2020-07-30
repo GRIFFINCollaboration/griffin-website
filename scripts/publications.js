@@ -1,7 +1,7 @@
 physics = [
     {
-        title: 'Collective 2p-2h intruder states in 118Sn studied via beta-decay of 118In using GRIFFIN',
-        authors: 'K. Ortner et al.',
+        title: 'Beta-Decay of 132In and Spectroscopy of 132Sn and 131Sb with the GRIFFIN Spectrometer',
+        authors: 'K. Whitmore et al.',
         link: 'https://journals.aps.org/prc/accepted/8c07eP2eF1510b0f566c8aa2725c81ddb582260a7',
         linkTitle: 'Accepted in Phys. Rev. C',
         openLink: 'http://arxiv.org',
