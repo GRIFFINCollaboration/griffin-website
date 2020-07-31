@@ -1,5 +1,12 @@
 physics = [
     {
+        title: 'Decay Spectroscopy of 129Cd',
+        authors: 'Y. Saito et al.',
+        link: 'https://journals.aps.org/prc/accepted/1a07aPdaAd512f0d76050764d3e2f31a9010b1751',
+        linkTitle: 'Accepted in Phys. Rev. C',
+        openLink: 'http://arxiv.org',
+        openLinkTitle: 'Will appear on arXiv'
+    },
         title: 'Beta-Decay of 132In and Spectroscopy of 132Sn and 131Sb with the GRIFFIN Spectrometer',
         authors: 'K. Whitmore et al.',
         link: 'https://journals.aps.org/prc/accepted/8c07eP2eF1510b0f566c8aa2725c81ddb582260a7',
