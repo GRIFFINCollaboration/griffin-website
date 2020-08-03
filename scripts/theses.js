@@ -70,7 +70,7 @@ masters = [
         institution: 'University of Surrey/TRIUMF',
         supervisor: 'A.B. Garnsworthy',
         year: '2019',
-        link: 'https://griffin.triumf.ca',
+        link: 'https://griffin.triumf.ca/Theses/Surrey-MPhys-Jones.pdf',
         linkTitle: 'A new beta-scintillator array with optimized geometry for the GRIFFIN spectrometer'
     },
     {
@@ -94,7 +94,7 @@ masters = [
         institution: 'University of Surrey/TRIUMF',
         supervisor: 'A.B. Garnsworthy',
         year: '2018',
-        link: 'https://griffin.triumf.ca',
+        link: 'https://griffin.triumf.ca/Theses/Surrey-MPhys-Jones.pdf',
         linkTitle: 'An Investigation of Branching Ratios, Comparative Half-Lives and Rotational Band Structure in 50Ti Nuclei'
     },
     {
@@ -118,7 +118,7 @@ masters = [
         institution: 'University of Surrey/TRIUMF',
         supervisor: 'A.B. Garnsworthy',
         year: '2016',
-        link: 'https://griffin.triumf.ca',
+        link: 'https://griffin.triumf.ca/Theses/Surrey-MPhys-Hallam.pdf',
         linkTitle: 'Designing CEDAR: Conversion Electron Detection ARray'
     },
     {
@@ -134,7 +134,7 @@ masters = [
         institution: 'University of Surrey/TRIUMF',
         supervisor: 'A.B. Garnsworthy',
         year: '2015',
-        link: 'https://griffin.triumf.ca',
+        link: 'https://griffin.triumf.ca/Theses/Surrey-MPhys-Morrison.pdf',
         linkTitle: 'Gamma-Gamma Angular Correlations with the GRIFFIN Spectrometer'
     }
 ]
