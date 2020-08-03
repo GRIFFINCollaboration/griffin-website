@@ -70,7 +70,7 @@ masters = [
         institution: 'University of Surrey/TRIUMF',
         supervisor: 'A.B. Garnsworthy',
         year: '2019',
-        link: 'https://griffin.triumf.ca/Theses/Surrey-MPhys-Jones.pdf',
+        link: 'https://griffin.triumf.ca/Theses/Surrey-MPhys-Winokan.pdf',
         linkTitle: 'A new beta-scintillator array with optimized geometry for the GRIFFIN spectrometer'
     },
     {
