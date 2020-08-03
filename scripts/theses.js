@@ -34,12 +34,44 @@ phd = [
 ]
 masters = [
     {
+        student: 'Robin Coleman',
+        institution: 'University of Guelph',
+        supervisor: 'C.E. Svensson',
+        year: '2020',
+        link: 'http://hdl.handle.net/10214/17744',
+        linkTitle: 'Beta Decay of Neutron-Rich 52K'
+    },
+    {
+        student: 'Charlotte Paxman',
+        institution: 'University of Surrey/TRIUMF',
+        supervisor: 'A.B. Garnsworthy',
+        year: '2020',
+        link: 'https://griffin.triumf.ca',
+        linkTitle: 'Internal conversion coefficients and spin assignments in Hg isotopes'
+    },
+    {
+        student: 'Joseph McAfee',
+        institution: 'University of Surrey/TRIUMF',
+        supervisor: 'A.B. Garnsworthy',
+        year: '2020',
+        link: 'https://griffin.triumf.ca',
+        linkTitle: 'Developing the Perturbed Angular Correlation spectroscopy (PACs) technique for the GRIFFIN spectrometer'
+    },
+    {
         student: 'Daniel Yates',
         institution: 'University of British Columbia/TRIUMF',
         supervisor: 'R. Kruecken/I. Dillmann',
         year: '2019',
         link: 'http://hdl.handle.net/2429/71312',
         linkTitle: 'Decay spectroscopy of Europium-160'
+    },
+    {
+        student: 'Max Winokan',
+        institution: 'University of Surrey/TRIUMF',
+        supervisor: 'A.B. Garnsworthy',
+        year: '2019',
+        link: 'https://griffin.triumf.ca',
+        linkTitle: 'A new beta-scintillator array with optimized geometry for the GRIFFIN spectrometer'
     },
     {
         student: 'Tammy Zidar',
