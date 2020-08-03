@@ -20,8 +20,8 @@ physics = [
         authors: 'K. Ortner et al.',
         link: 'https://journals.aps.org/prc/accepted/0407dP5eZ5f18406465056d4a5d3aef407de568a9',
         linkTitle: 'Accepted in Phys. Rev. C',
-        openLink: 'http://arxiv.org',
-        openLinkTitle: 'Will appear on arXiv'
+        openLink: 'https://arxiv.org/abs/2007.16202',
+        openLinkTitle: 'arxiv:2007.16202'
     },
     {
         title: 'Detailed spectroscopy of 46Ca: An investigation of the beta decay of 46K',
