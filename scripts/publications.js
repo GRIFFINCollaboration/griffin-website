@@ -4,8 +4,8 @@ physics = [
         authors: 'Y. Saito et al.',
         link: 'https://journals.aps.org/prc/accepted/1a07aPdaAd512f0d76050764d3e2f31a9010b1751',
         linkTitle: 'Accepted in Phys. Rev. C',
-        openLink: 'http://arxiv.org',
-        openLinkTitle: 'Will appear on arXiv'
+        openLink: 'https://arxiv.org/abs/2008.02959',
+        openLinkTitle: 'arXiv:2008.02959'
     },
     {
         title: 'Beta-Decay of 132In and Spectroscopy of 132Sn and 131Sb with the GRIFFIN Spectrometer',
@@ -13,7 +13,7 @@ physics = [
         link: 'https://journals.aps.org/prc/accepted/8c07eP2eF1510b0f566c8aa2725c81ddb582260a7',
         linkTitle: 'Accepted in Phys. Rev. C',
         openLink: 'https://arxiv.org/abs/2008.00548',
-        openLinkTitle: 'arxiv:2008.00548'
+        openLinkTitle: 'arXiv:2008.00548'
     },
     {
         title: 'Collective 2p-2h intruder states in 118Sn studied via beta-decay of 118In using GRIFFIN',
@@ -21,7 +21,7 @@ physics = [
         link: 'https://journals.aps.org/prc/accepted/0407dP5eZ5f18406465056d4a5d3aef407de568a9',
         linkTitle: 'Accepted in Phys. Rev. C',
         openLink: 'https://arxiv.org/abs/2007.16202',
-        openLinkTitle: 'arxiv:2007.16202'
+        openLinkTitle: 'arXiv:2007.16202'
     },
     {
         title: 'Detailed spectroscopy of 46Ca: An investigation of the beta decay of 46K',
