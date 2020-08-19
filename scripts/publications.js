@@ -18,8 +18,8 @@ physics = [
     {
         title: 'Collective 2p-2h intruder states in 118Sn studied via beta-decay of 118In using GRIFFIN',
         authors: 'K. Ortner et al.',
-        link: 'https://journals.aps.org/prc/accepted/0407dP5eZ5f18406465056d4a5d3aef407de568a9',
-        linkTitle: 'Accepted in Phys. Rev. C',
+        link: 'https://link.aps.org/doi/10.1103/PhysRevC.102.024323',
+        linkTitle: 'Phys. Rev. C 102, 024323 (2020)',
         openLink: 'https://arxiv.org/abs/2007.16202',
         openLinkTitle: 'arXiv:2007.16202'
     },
