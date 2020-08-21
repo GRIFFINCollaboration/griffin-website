@@ -10,8 +10,8 @@ physics = [
     {
         title: 'Beta-Decay of 132In and Spectroscopy of 132Sn and 131Sb with the GRIFFIN Spectrometer',
         authors: 'K. Whitmore et al.',
-        link: 'https://journals.aps.org/prc/accepted/8c07eP2eF1510b0f566c8aa2725c81ddb582260a7',
-        linkTitle: 'Accepted in Phys. Rev. C',
+        link: 'https://link.aps.org/doi/10.1103/PhysRevC.102.024327',
+        linkTitle: 'Phys. Rev. C 102, 024327 (2020)',
         openLink: 'https://arxiv.org/abs/2008.00548',
         openLinkTitle: 'arXiv:2008.00548'
     },
