@@ -2,8 +2,8 @@ physics = [
     {
         title: 'Decay Spectroscopy of 129Cd',
         authors: 'Y. Saito et al.',
-        link: 'https://journals.aps.org/prc/accepted/1a07aPdaAd512f0d76050764d3e2f31a9010b1751',
-        linkTitle: 'Accepted in Phys. Rev. C',
+        link: 'https://link.aps.org/doi/10.1103/PhysRevC.102.024337',
+        linkTitle: 'Phys. Rev. C 102, 024337 (2020)',
         openLink: 'https://arxiv.org/abs/2008.02959',
         openLinkTitle: 'arXiv:2008.02959'
     },
