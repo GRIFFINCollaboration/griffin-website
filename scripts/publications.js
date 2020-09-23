@@ -1,5 +1,13 @@
 physics = [
     {
+        title: 'Absence of low-energy shape coexistence in 80Ge: The non-observation of a proposed excited 0+ level at 639 keV',
+        authors: 'F. Garcia et al.',
+        link: 'https://journals.aps.org/prl/accepted/b507bYc5Gbb1f27054335497376fa38b5ea0551ea',
+        linkTitle: 'Accepted in Phys. Rev. Lett. (2020)',
+        openLink: 'https://arxiv.org',
+        openLinkTitle: 'Will appear on arXiv'
+    },
+    {
         title: 'Decay Spectroscopy of 129Cd',
         authors: 'Y. Saito et al.',
         link: 'https://link.aps.org/doi/10.1103/PhysRevC.102.024337',
