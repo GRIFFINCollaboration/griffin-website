@@ -4,8 +4,8 @@ physics = [
         authors: 'F.H. Garcia et al.',
         link: 'https://link.aps.org/doi/10.1103/PhysRevLett.125.172501',
         linkTitle: 'Phys. Rev. Lett. 125, 172501 (2020)',
-        openLink: 'https://arxiv.org',
-        openLinkTitle: 'Will appear on arXiv'
+        openLink: 'https://arxiv.org/abs/2010.12793',
+        openLinkTitle: 'arXiv:2010.12793'
     },
     {
         title: 'Decay Spectroscopy of 129Cd',
