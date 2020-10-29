@@ -1,6 +1,6 @@
 physics = [
     {
-        title: 'Decay Spectroscopy of 129Cd',
+        title: 'Spectroscopic study of 47Ca from the beta-decay of 47K',
         authors: 'J.K. Smith et al.',
         link: 'https://journals.aps.org/prc/accepted/5f07bP94H6c16c0ac61825249c639228b17eb59f7',
         linkTitle: 'Accepted to Phys. Rev. C',
