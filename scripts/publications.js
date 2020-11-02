@@ -12,8 +12,8 @@ physics = [
         authors: 'J.K. Smith et al.',
         link: 'https://journals.aps.org/prc/accepted/5f07bP94H6c16c0ac61825249c639228b17eb59f7',
         linkTitle: 'Accepted to Phys. Rev. C',
-        openLink: 'https://arxiv.org',
-        openLinkTitle: 'Will appear on arXiv'
+        openLink: 'https://arxiv.org/abs/2010.15878',
+        openLinkTitle: 'arXiv2010.15878'
     },
     {
         title: 'Absence of low-energy shape coexistence in 80Ge: The non-observation of a proposed excited 0+ level at 639 keV',
