@@ -2,7 +2,7 @@ physics = [
     {
         title: 'High-Precision Branching Ratio Measurement and Spin Assignment Implications for 62Ga Superallowed beta Decay',
         authors: 'A.D. MacLean et al.',
-        link: 'https://journals.aps.org/prc/accepted',
+        link: 'https://journals.aps.org/prc/accepted/8007fP9aG331930396e69d72903b7cfbf8e773ea5',
         linkTitle: 'Accepted to Phys. Rev. C',
         openLink: 'https://arxiv.org',
         openLinkTitle: 'Will appear on arXiv'
