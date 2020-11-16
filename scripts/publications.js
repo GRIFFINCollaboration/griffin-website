@@ -10,8 +10,8 @@ physics = [
     {
         title: 'Spectroscopic study of 47Ca from the beta-decay of 47K',
         authors: 'J.K. Smith et al.',
-        link: 'https://journals.aps.org/prc/accepted/5f07bP94H6c16c0ac61825249c639228b17eb59f7',
-        linkTitle: 'Accepted to Phys. Rev. C',
+        link: 'https://link.aps.org/doi/10.1103/PhysRevC.102.054314',
+        linkTitle: 'Phys. Rev. C 102, 054314 (2020)',
         openLink: 'https://arxiv.org/abs/2010.15878',
         openLinkTitle: 'arXiv:2010.15878'
     },
