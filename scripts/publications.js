@@ -1,5 +1,13 @@
 physics = [
     {
+        title: 'Spectroscopic studies of neutron-rich 129In and its beta-decay daughter, 129Sn, using the GRIFFIN spectrometer',
+        authors: 'F.H. Garcia et al.',
+        link: 'https://journals.aps.org/prc/accepted/c2071PebDc51b10d57670cd4ca24c721540dfc14e',
+        linkTitle: 'Accepted to Phys. Rev. C (2021)',
+        openLink: 'https://arxiv.org',
+        openLinkTitle: 'Will appear on arXiv'
+    },
+    {
         title: 'High-Precision Branching Ratio Measurement and Spin Assignment Implications for 62Ga Superallowed beta Decay',
         authors: 'A.D. MacLean et al.',
         link: 'https://link.aps.org/doi/10.1103/PhysRevC.102.054325',
