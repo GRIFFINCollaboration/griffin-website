@@ -4,8 +4,8 @@ physics = [
         authors: 'F.H. Garcia et al.',
         link: 'https://journals.aps.org/prc/accepted/c2071PebDc51b10d57670cd4ca24c721540dfc14e',
         linkTitle: 'Accepted to Phys. Rev. C (2021)',
-        openLink: 'https://arxiv.org',
-        openLinkTitle: 'Will appear on arXiv'
+        openLink: 'https://arxiv.org/abs/2101.05468',
+        openLinkTitle: 'arXiv:2101.05468'
     },
     {
         title: 'High-Precision Branching Ratio Measurement and Spin Assignment Implications for 62Ga Superallowed beta Decay',
