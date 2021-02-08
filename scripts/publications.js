@@ -2,8 +2,8 @@ physics = [
     {
         title: 'Spectroscopic studies of neutron-rich 129In and its beta-decay daughter, 129Sn, using the GRIFFIN spectrometer',
         authors: 'F.H. Garcia et al.',
-        link: 'https://journals.aps.org/prc/accepted/c2071PebDc51b10d57670cd4ca24c721540dfc14e',
-        linkTitle: 'Accepted to Phys. Rev. C (2021)',
+        link: 'https://link.aps.org/doi/10.1103/PhysRevC.103.024310',
+        linkTitle: 'Phys. Rev. C 103, 024310 (2021)',
         openLink: 'https://arxiv.org/abs/2101.05468',
         openLinkTitle: 'arXiv:2101.05468'
     },
