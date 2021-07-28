@@ -7,6 +7,7 @@ physics = [
         openLink: 'Will appear on arXiv',
         openLinkTitle: 'https://arxiv.org/'
     },
+    {
         title: 'Spectroscopic studies of neutron-rich 129In and its beta-decay daughter, 129Sn, using the GRIFFIN spectrometer',
         authors: 'F.H. Garcia et al.',
         link: 'https://link.aps.org/doi/10.1103/PhysRevC.103.024310',
