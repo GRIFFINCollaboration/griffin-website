@@ -1,5 +1,12 @@
 physics = [
     {
+        title: 'Decay spectroscopy of 50Sc and 50mSc to 50Ti',
+        authors: 'M. Bowry et al.',
+        link: 'https://journals.aps.org/prc/accepted/81070P1bS4814506960868b0adad1efe6cf7f48cb',
+        linkTitle: 'Accepted in Phys. Rev. C (2021)',
+        openLink: 'Will appear on arXiv',
+        openLinkTitle: 'https://arxiv.org/'
+    },
         title: 'Spectroscopic studies of neutron-rich 129In and its beta-decay daughter, 129Sn, using the GRIFFIN spectrometer',
         authors: 'F.H. Garcia et al.',
         link: 'https://link.aps.org/doi/10.1103/PhysRevC.103.024310',
