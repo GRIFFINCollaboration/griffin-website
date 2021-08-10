@@ -1,9 +1,17 @@
 physics = [
     {
+        title: '145Ba and 145,146La structure from lifetime measurements',
+        authors: 'B. Olaizola et al.',
+        link: 'https://journals.aps.org/prc/accepted/56078Pb9Oaa1560b67f915c077e19fff665838e90',
+        linkTitle: 'Accepted in Phys. Rev. C (2021)',
+        openLink: 'https://arxiv.org',
+        openLinkTitle: 'Will appear on arXiv'
+    },
+    {
         title: 'Decay spectroscopy of 50Sc and 50mSc to 50Ti',
         authors: 'M. Bowry et al.',
-        link: 'https://journals.aps.org/prc/accepted/81070P1bS4814506960868b0adad1efe6cf7f48cb',
-        linkTitle: 'Accepted in Phys. Rev. C (2021)',
+        link: 'https://link.aps.org/doi/10.1103/PhysRevC.104.024314',
+        linkTitle: 'Phys. Rev. C 104, 024314 (2021)',
         openLink: 'https://arxiv.org',
         openLinkTitle: 'Will appear on arXiv'
     },
