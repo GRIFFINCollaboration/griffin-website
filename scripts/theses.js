@@ -1,5 +1,29 @@
 phd = [
     {
+        student: 'Carlotta Porzio',
+        institution: 'Universita degli Studi di Milano/TRIUMF',
+        supervisor: 'S. Leoni/A.B. Garnsworthy',
+        year: '2021',
+        link: 'https://air.unimi.it/handle/2434/886195',
+        linkTitle: 'Configuration mixing investigation in germanium isotopes'
+    },
+    {
+        student: 'Andrew MacLean',
+        institution: 'University of Guelph',
+        supervisor: 'C.E. Svensson',
+        year: '2021',
+        link: 'https://hdl.handle.net/10214/26382',
+        linkTitle: 'Spectroscopy of 188Hg following the beta+/EC decay of 188,188mTl'
+    },
+    {
+        student: 'Fatima Garcia',
+        institution: 'Simon Fraser University',
+        supervisor: 'C. Andreoiu',
+        year: '2021',
+        link: 'http://summit.sfu.ca/item/21551',
+        linkTitle: 'Spectroscopic studies of neutron-rich 129Sn and 80Ge nuclei using the GRIFFIN spectrometer'
+    },
+    {
         student: 'Ryan Dunlop',
         institution: 'University of Guelph',
         supervisor: 'C.E. Svensson',

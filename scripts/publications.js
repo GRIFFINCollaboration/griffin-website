@@ -1,19 +1,27 @@
 physics = [
     {
-        title: '145Ba and 145,146La structure from lifetime measurements',
-        authors: 'B. Olaizola et al.',
-        link: 'https://journals.aps.org/prc/accepted/56078Pb9Oaa1560b67f915c077e19fff665838e90',
-        linkTitle: 'Accepted in Phys. Rev. C (2021)',
+        title: 'First evidence of axial shape asymmetry and configuration coexistence in  74Zn: Suggestion for a northern extension of the N=40 island of inversion',
+        authors: 'M. Rocchini et al.',
+        link: 'https://journals.aps.org/prl/accepted/96077Y4dI031987762d35c948a4c73dc5876b727b',
+        linkTitle: 'Accepted to Phys. Rev. Letts.',
         openLink: 'https://arxiv.org',
         openLinkTitle: 'Will appear on arXiv'
+    },
+    {
+        title: '145Ba and 145,146La structure from lifetime measurements',
+        authors: 'B. Olaizola et al.',
+        link: 'https://link.aps.org/doi/10.1103/PhysRevC.104.034307',
+        linkTitle: 'Phys. Rev. C 104, 034307 (2021)',
+        openLink: 'https://arxiv.org/abs/2109.04808',
+        openLinkTitle: 'arXiv:2109.04808'
     },
     {
         title: 'Decay spectroscopy of 50Sc and 50mSc to 50Ti',
         authors: 'M. Bowry et al.',
         link: 'https://link.aps.org/doi/10.1103/PhysRevC.104.024314',
         linkTitle: 'Phys. Rev. C 104, 024314 (2021)',
-        openLink: 'https://arxiv.org',
-        openLinkTitle: 'Will appear on arXiv'
+        openLink: 'https://arxiv.org/abs/1906.04245',
+        openLinkTitle: 'arXiv:1906.04245'
     },
     {
         title: 'Spectroscopic studies of neutron-rich 129In and its beta-decay daughter, 129Sn, using the GRIFFIN spectrometer',
