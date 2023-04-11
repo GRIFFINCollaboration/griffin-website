@@ -2,10 +2,10 @@ physics = [
     {
         title: 'First evidence of axial shape asymmetry and configuration coexistence in  74Zn: Suggestion for a northern extension of the N=40 island of inversion',
         authors: 'M. Rocchini et al.',
-        link: 'https://journals.aps.org/prl/accepted/96077Y4dI031987762d35c948a4c73dc5876b727b',
-        linkTitle: 'Accepted to Phys. Rev. Letts.',
-        openLink: 'https://arxiv.org',
-        openLinkTitle: 'Will appear on arXiv'
+        link: 'https://link.aps.org/doi/10.1103/PhysRevLett.130.122502',
+        linkTitle: 'Phys. Rev. Lett. 130, 122502 (2023)',
+        openLink: 'https://arxiv.org/abs/2302.07394',
+        openLinkTitle: 'arXiv:2302.07394'
     },
     {
         title: '145Ba and 145,146La structure from lifetime measurements',
@@ -131,6 +131,13 @@ physics = [
 conference = [
 
     {
+        title: 'First Report of a Doublet 2209-keV State in 100Zr',
+        authors: 'D. Kalaydjieva et al.',
+        link: 'https://www.actaphys.uj.edu.pl/index_n.php?I=S&V=16&N=4#A15',
+        linkTitle: 'Acta Phys. Pol. B Proceedings Supplement, 16, 4-A15 (2023)'
+    },
+
+    {
         title: 'High-statistics beta-decay measurements at TRIUMF-ISAC and the transition from the 8pi spectrometer to GRIFFIN',
         authors: 'P.E. Garrett et al.',
         link: 'https://doi.org/10.1051/epjconf/201819304011',
@@ -148,7 +155,7 @@ conference = [
         title: 'High-statistics beta-decay measurements at TRIUMF-ISAC and the transition from the 8pi spectrometer to GRIFFIN',
         authors: 'P.E. Garrett et al.',
         link: 'http://www.actaphys.uj.edu.pl/fulltext?series=Reg&vol=48&page=523',
-        linkTitle: 'Acta Phys.Pol. B, 48, 523 (2017)'
+        linkTitle: 'Acta Phys. Pol. B, 48, 523 (2017)'
     },
 
     {
