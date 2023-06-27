@@ -1,5 +1,13 @@
 phd = [
     {
+        student: 'Harris Bidaman',
+        institution: 'University of Guelph',
+        supervisor: 'P. Garrett',
+        year: '2023',
+        link: 'https://hdl.handle.net/10214/27505',
+        linkTitle: 'Lifetime Analysis of 100Zr and Simulating the Detector Array for Energy Measurements Of Neutrons (DAEMON)'
+    },
+    {
         student: 'Carlotta Porzio',
         institution: 'Universita degli Studi di Milano/TRIUMF',
         supervisor: 'S. Leoni/A.B. Garnsworthy',
@@ -57,6 +65,14 @@ phd = [
     }
 ]
 masters = [
+    {
+        student: 'William Royer',
+        institution: 'University of Surrey/TRIUMF',
+        supervisor: 'A.B. Garnsworthy',
+        year: '2023',
+        link: 'https://griffin.triumf.ca',
+        linkTitle: 'Research Towards Commissioning ARIES, the New Ancillary Beta Tagging Array for Decay Spectroscopy at TRIUMF'
+    },
     {
         student: 'Robin Coleman',
         institution: 'University of Guelph',

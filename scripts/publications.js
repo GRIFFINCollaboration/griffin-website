@@ -1,5 +1,13 @@
 physics = [
     {
+        title: 'Decay spectroscopy of 160Eu: Quasiparticle configurations of excited states and structure of Kπ=4+ bandheads in 160Gd',
+        authors: 'D. Yates et al.',
+        link: 'https://link.aps.org/doi/10.1103/PhysRevC.107.064309',
+        linkTitle: 'Phys. Rev. C 107, 064309 (2023)',
+        openLink: 'https://arxiv.org/abs/2305.11324',
+        openLinkTitle: 'arXiv:2305.11324'
+    },
+    {
         title: 'First evidence of axial shape asymmetry and configuration coexistence in  74Zn: Suggestion for a northern extension of the N=40 island of inversion',
         authors: 'M. Rocchini et al.',
         link: 'https://link.aps.org/doi/10.1103/PhysRevLett.130.122502',
