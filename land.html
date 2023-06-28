@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title>GRIFFIN Collaboration - Land Acknowledgement</title>
+        <script src="scripts/jquery1-11-3.min.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="scripts/bootstrap3-3-5.min.js" type="text/javascript"></script>
+        <script src="scripts/mustache.js" type="text/javascript"></script>
+        <script src="scripts/smooth-scroll.js"></script>
+
+        <script src='scripts/griffin.js' type="text/javascript"></script>
+        <link rel="stylesheet" href="css/general.css"></link>
+        <link rel="stylesheet" href="css/landing.css"></link>
+    </head>
+
+    <body>
+
+        <div id='wrap' class='wrap'>
+            <div id='heroHeader' class='heroHeader'>
+                <!--navigation - poulate with nav.mustache-->
+                <nav id='navigation' class="navbar navbar-default navbar-custom"></nav>
+
+                <!--splash-->
+                <div class="jumbotron jumbotron-custom">
+                    <h1>
+                        <img class='logo' alt="GRIFFIN Collaboration" src="img/branding/GRIFFIN_Logo_White.png">
+                        GRIFFIN Collaboration
+                    </h1>
+<h2>Land Acknowledgement</h2>
+<p>
+		  The Gamma Ray Spectroscopy at ISAC team acknowledges
+                that our work spans many Territories and Treaty areas
+                and we are grateful for the traditional Knowledge
+                Keepers and Elders who are with us today, those who
+                have gone before us and the youth that inspire us. As
+                an act of Reconciliation and gratitude to those whose
+                territory we visit, reside and work on, and as
+                recommended by the <a href='https://nctr.ca/records/reports/#trc-reports'>Truth and Reconciliation Commission’s (TRC) 94 Calls to Action</a>, we recognize the land and the benefits it provides all of us.
+		  </p>
+		  <br>
+<h3><a href='https://www.uvic.ca/'>University of Toronto</a></h3>
+		  <p>
+		  The University of Toronto wish to acknowledge this land on which the University operates. For thousands of years it has been the traditional land of the Huron-Wendat, the Seneca, and the Mississaugas of the Credit.
+		  </p>
+		  <br>
+<h3><a href='https://www.uoguelph.ca/'>University of Guelph</a></h3>
+		  <p>
+		  The University of Guelph campuses reside on the treaty lands of the Mississaugas of the Credit and lands that the Anishinaabe, Hodinohso:ni, Lūnaapéewak and Wendat peoples have inhabited for centuries. We understand that these lands are connected by the Dish with One Spoon Wampum and continue to be home to diverse communities of First Nations, Inuit and Métis Peoples.
+		  </p>
+		  <br>
+<h3><a href='https://www.uregina.ca/'>University of Regina</a></h3>
+		  <p>
+		  The University of Regina and its federated colleges are on Treaty 4 and Treaty 6 territories — the homelands of the nêhiyawak, Anihšināpēk, Dakota, Lakota, Nakoda peoples, and Michif/Métis nation.
+		  </p>
+		  <br>
+<h3><a href='https://www.sfu.ca/'>Simon Fraser University</a></h3>
+		  <p>
+		  Simon Fraser University respectfully acknowledges the xʷməθkʷəy̓əm (Musqueam), Sḵwx̱wú7mesh Úxwumixw (Squamish), səl̓ilw̓ətaʔɬ (Tsleil-Waututh), q̓íc̓əy̓ (Katzie), kʷikʷəƛ̓əm (Kwikwetlem), Qayqayt, Kwantlen, Semiahmoo and Tsawwassen peoples on whose unceded traditional territories our three campuses reside.
+		  </p>
+		  <br>
+<h3><a href='https://www.ubc.ca/'>University of British Columbia</a> & <a href='https://www.triumf.ca/'>TRIUMF</a></h3>
+		  <p>
+		  The University of British Columbia, Point Grey Campus (Vancouver) and TRIUMF acknowledge that our work takes place on the traditional, ancestral, and unceded territory of the xwməθkwəy̓əm (Musqueam) People.
+		  </p>
+		  <br>
+<h3><a href='https://www.uvic.ca/'>University of Victoria</a></h3>
+		  <p>
+		  The University of Victoria acknowledge and respect
+                the lək̓ʷəŋən peoples on whose traditional territory
+                the University of Victoria stands, and the Songhees,
+                Esquimalt and W̱SÁNEĆ peoples whose historical
+		  relationships with the land continue to this day.
+		  </p>
+                </div>
+                
+            </div>
+
+                <div id='footer'></div>
+            </div>
+
+        </div>
+
+
+
+        <script>
+            
+
+            //inject navigation bar
+            promisePartial('nav').then(function(template){
+                document.getElementById('navigation').innerHTML = Mustache.to_html(template, {"whiteLogo": true});
+                document.getElementById('linkOverview').classList.add('active');
+                document.getElementById('linkOverview').classList.add('active-custom');
+            })
+
+            //inject footer
+            promisePartial('footer').then(function(template){
+                document.getElementById('footer').innerHTML = Mustache.to_html(template, {});
+            })
+
+            //mange the scroll link
+            smoothScroll.init();
+            manageScrollPosition();
+            window.onresize = manageScrollPosition;
+            function manageScrollPosition(){
+                var heroHeight = document.getElementById('heroHeader').offsetHeight, 
+                    scroll = document.getElementById('moreInfo');
+
+                scroll.setAttribute('style', 'top: calc(' + heroHeight + 'px - 5em)')
+            }
+
+
+        </script>
+    </body>
+</html>
