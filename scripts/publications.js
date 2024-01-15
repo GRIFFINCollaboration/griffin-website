@@ -2,10 +2,10 @@ physics = [
     {
         title: 'Cross-shell excited configurations in the structure of 34Si',
         authors: 'R. Lubna et al.',
-        link: 'https://journals.aps.org/prc/accepted/9a07ePf5Rc412d0dd8832e48bad8db2b744591c5b',
-        linkTitle: 'Accepted to Phys. Rev. C (2023)',
-        openLink: 'https://arxiv.org',
-        openLinkTitle: 'Will appear on arXiv'
+        link: 'https://doi.org/10.1103/PhysRevC.109.014309',
+        linkTitle: 'Phys. Rev. C 109, 014309 (2024)',
+        openLink: 'https://arxiv.org/abs/2401.04195',
+        openLinkTitle: 'arXiv:2401.04195'
     },
     {
         title: 'Decay spectroscopy of 160Eu: Quasiparticle configurations of excited states and structure of Kπ=4+ bandheads in 160Gd',
