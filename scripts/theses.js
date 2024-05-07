@@ -1,5 +1,13 @@
 phd = [
     {
+        student: 'Kevin Ortner',
+        institution: 'Simon Fraser University',
+        supervisor: 'C. Andreoiu',
+        year: '2023',
+        link: 'http://summit.sfu.ca/item/36549',
+        linkTitle: 'Nuclear structure of 118Sn studied through beta decay of 118In and thermal neutron capture of 117Sn(n,gamma)'
+    },
+    {
         student: 'Harris Bidaman',
         institution: 'University of Guelph',
         supervisor: 'P. Garrett',
