@@ -1,5 +1,13 @@
 physics = [
     {
+        title: 'Investigation of the excited states of 114Sn using the GRIFFIN spectrometer at TRIUMF',
+        authors: 'N.K. Syeda et al.',
+        link: 'https://doi.org/10.1016/j.nuclphysa.2025.123090',
+        linkTitle: 'Nucl. Phys. A 1059, 123090 (2025)',
+        openLink: 'https://arxiv.org',
+        openLinkTitle: 'arXiv'
+    },
+    {
         title: 'Cross-shell excited configurations in the structure of 34Si',
         authors: 'R. Lubna et al.',
         link: 'https://doi.org/10.1103/PhysRevC.109.014309',
@@ -125,7 +133,7 @@ physics = [
         link: 'https://link.aps.org/doi/10.1103/PhysRevC.96.045502',
         linkTitle: 'Phys. Rev. C 96, 045502 (2017)',
         openLink: 'http://arxiv.org/abs/1711.00827',
-        openLinkTitle: 'arXiv:1711.00827'	
+        openLinkTitle: 'arXiv:1711.00827'
     },
     {
         title: 'Spectroscopy of 50Sc and ab initio calculations of B(M3) strengths',
@@ -193,7 +201,7 @@ conference = [
         authors: 'P.E. Garrett et al.',
         link: 'http://iopscience.iop.org/article/10.1088/1742-6596/639/1/012006/pdf',
         linkTitle: 'Journal of Physics Conference Series 639, 012006 (2015)'
-    }  
+    }
 ]
 technical = [
     {
@@ -204,7 +212,7 @@ technical = [
         openLink: 'https://arxiv.org/abs/1809.07183',
         openLinkTitle: 'arxiv:1809.07183'
     },
-    
+
     {
         title: 'Gamma-gamma angular correlation analysis techniques with the GRIFFIN spectrometer',
         authors: 'J.K. Smith et al.',
@@ -237,5 +245,5 @@ technical = [
         authors: 'C.E. Svensson and A.B. Garnsworthy',
         link: 'http://link.springer.com/article/10.1007/s10751-013-0889-3',
         linkTitle: 'Hyperfine Interactions, 225, 127 (2014)'
-    }    
+    }
 ]
