@@ -4,8 +4,8 @@ physics = [
         authors: 'N.K. Syeda et al.',
         link: 'https://doi.org/10.1016/j.nuclphysa.2025.123090',
         linkTitle: 'Nucl. Phys. A 1059, 123090 (2025)',
-        openLink: 'https://arxiv.org',
-        openLinkTitle: 'arXiv'
+        openLink: 'https://arxiv.org/abs/2504.17174',
+        openLinkTitle: 'arXiv:2504.17174'
     },
     {
         title: 'Cross-shell excited configurations in the structure of 34Si',
