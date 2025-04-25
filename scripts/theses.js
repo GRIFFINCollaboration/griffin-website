@@ -1,5 +1,21 @@
 phd = [
     {
+        student: 'Connor Natzke',
+        institution: 'Colorado School of Mines/TRIUMF',
+        supervisor: 'K. Leach/A.B. Garnsworthy',
+        year: '2024',
+        link: 'https://repository.mines.edu/entities/publication/28fbfecf-f667-44c7-82d6-5471e8349285',
+        linkTitle: 'Search for nuclear two-photon decay with GRIFFIN'
+    },
+    {
+        student: 'Daniel Yates',
+        institution: 'University of British Columbia/TRIUMF',
+        supervisor: 'R. Kruecken',
+        year: '2024',
+        link: 'https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0444092',
+        linkTitle: 'Advances in decay spectroscopy of 160Gd and developments for transfer experiments using radioactive isotope beams'
+    },
+    {
         student: 'Kevin Ortner',
         institution: 'Simon Fraser University',
         supervisor: 'C. Andreoiu',
