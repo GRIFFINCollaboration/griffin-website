@@ -25,11 +25,11 @@ phd = [
     },
     {
         student: 'Desislava Kalaydjieva',
-        institution: 'Universite Paris-Saclay',
-        supervisor: 'M. Zielinska/W. Korten',
+        institution: 'Universit&#233; Paris-Saclay',
+        supervisor: 'M. Zieli&#324;ska/W. Korten',
         year: '2023',
         link: 'https://theses.hal.science/tel-04472302',
-        linkTitle: "Study of shape coexistence in nuclei with A around 100 using stable and radioactive ion beams"
+        linkTitle: "Study of shape coexistence in nuclei with A&#8776;100 using stable and radioactive ion beams"
     },
     {
         student: 'Kevin Ortner',
@@ -49,7 +49,7 @@ phd = [
     },
     {
         student: 'Carlotta Porzio',
-        institution: 'Universita degli Studi di Milano/TRIUMF',
+        institution: 'Universit&#224; degli Studi di Milano/TRIUMF',
         supervisor: 'S. Leoni/A.B. Garnsworthy',
         year: '2021',
         link: 'https://air.unimi.it/handle/2434/886195',

@@ -58,7 +58,7 @@
             })
             promisePartial('theses').then(function(template){
                 document.getElementById('theses-masters-table').innerHTML = Mustache.to_html(template, {theses: masters});
-            })         
+            })
 
             //inject footer
             promisePartial('footer').then(function(template){

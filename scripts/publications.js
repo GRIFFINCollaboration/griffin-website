@@ -16,7 +16,7 @@ physics = [
         openLinkTitle: 'arXiv:2401.04195'
     },
     {
-        title: 'Decay spectroscopy of 160Eu: Quasiparticle configurations of excited states and structure of Kπ=4+ bandheads in 160Gd',
+        title: 'Decay spectroscopy of 160Eu: Quasiparticle configurations of excited states and structure of K&#960;=4+ bandheads in 160Gd',
         authors: 'D. Yates et al.',
         link: 'https://link.aps.org/doi/10.1103/PhysRevC.107.064309',
         linkTitle: 'Phys. Rev. C 107, 064309 (2023)',
