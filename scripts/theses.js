@@ -1,5 +1,13 @@
 phd = [
     {
+        student: 'Magda Satrazani',
+        institution: 'University of Liverpool',
+        supervisor: 'L. Gaffney',
+        year: '2024',
+        link: 'https://livrepository.liverpool.ac.uk/3181848/',
+        linkTitle: 'Gamma-ray spectroscopy of neutron-rich cerium isotopes following beta-decay of mass-separated caesium ions'
+    },
+    {
         student: 'Connor Natzke',
         institution: 'Colorado School of Mines/TRIUMF',
         supervisor: 'K. Leach/A.B. Garnsworthy',
@@ -14,6 +22,14 @@ phd = [
         year: '2024',
         link: 'https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0444092',
         linkTitle: 'Advances in decay spectroscopy of 160Gd and developments for transfer experiments using radioactive isotope beams'
+    },
+    {
+        student: 'Desislava Kalaydjieva',
+        institution: 'Universite Paris-Saclay',
+        supervisor: 'M. Zielinska/W. Korten',
+        year: '2023',
+        link: 'https://theses.hal.science/tel-04472302',
+        linkTitle: "Study of shape coexistence in nuclei with A around 100 using stable and radioactive ion beams"
     },
     {
         student: 'Kevin Ortner',
